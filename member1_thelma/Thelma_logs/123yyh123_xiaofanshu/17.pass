@@ -1,0 +1,719 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] xiaofanshu                                                         [pom]
+[INFO] xfs-common                                                         [pom]
+[INFO] common-base                                                        [jar]
+[INFO] common-redis                                                       [jar]
+[INFO] common-web                                                         [jar]
+[INFO] common-mybatis                                                     [jar]
+[INFO] xfs-modules-api                                                    [pom]
+[INFO] xfs-user-api                                                       [jar]
+[INFO] xfs-modules-server                                                 [pom]
+[INFO] xfs-user-server                                                    [jar]
+[INFO] xfs-auth                                                           [jar]
+[INFO] xfs-gateway                                                        [jar]
+[INFO] xfs-im-api                                                         [jar]
+[INFO] xfs-im-server                                                      [jar]
+[INFO] xfs-notes-api                                                      [jar]
+[INFO] xfs-notes-server                                                   [jar]
+[INFO] xfs-search-api                                                     [jar]
+[INFO] xfs-search-server                                                  [jar]
+[INFO] xfs-comment-api                                                    [jar]
+[INFO] xfs-comment-server                                                 [jar]
+[INFO] xfs-third-server                                                   [jar]
+[INFO] xfs-job-server                                                     [jar]
+[INFO] 
+[INFO] -----------------------< org.example:xiaofanshu >-----------------------
+[INFO] Building xiaofanshu 1.0-SNAPSHOT                                  [1/22]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xiaofanshu ---
+[INFO] 
+[INFO] -----------------------< org.example:xfs-common >-----------------------
+[INFO] Building xfs-common 1.0-SNAPSHOT                                  [2/22]
+[INFO]   from xfs-common/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-common ---
+[INFO] 
+[INFO] ----------------------< org.example:common-base >-----------------------
+[INFO] Building common-base 1.0-SNAPSHOT                                 [3/22]
+[INFO]   from xfs-common/common-base/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ common-base ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ common-base ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-common/common-base/src/main/resources
+[INFO] skip non existing resourceDirectory /root/build/xfs-common/common-base/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ common-base ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /root/build/xfs-common/common-base/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ common-base ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-common/common-base/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ common-base ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ common-base ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ common-base ---
+[INFO] Building jar: /root/build/xfs-common/common-base/target/common-base-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------------< org.example:common-redis >----------------------
+[INFO] Building common-redis 1.0-SNAPSHOT                                [4/22]
+[INFO]   from xfs-common/common-redis/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ common-redis ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ common-redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ common-redis ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /root/build/xfs-common/common-redis/target/classes
+[INFO] /root/build/xfs-common/common-redis/src/main/java/com/yyh/xfs/common/redis/config/CustomRedisConfig.java: /root/build/xfs-common/common-redis/src/main/java/com/yyh/xfs/common/redis/config/CustomRedisConfig.java uses unchecked or unsafe operations.
+[INFO] /root/build/xfs-common/common-redis/src/main/java/com/yyh/xfs/common/redis/config/CustomRedisConfig.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ common-redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-common/common-redis/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ common-redis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ common-redis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ common-redis ---
+[INFO] Building jar: /root/build/xfs-common/common-redis/target/common-redis-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< org.example:common-web >-----------------------
+[INFO] Building common-web 1.0-SNAPSHOT                                  [5/22]
+[INFO]   from xfs-common/common-web/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ common-web ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ common-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ common-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /root/build/xfs-common/common-web/target/classes
+[INFO] /root/build/xfs-common/common-web/src/main/java/com/yyh/xfs/common/web/utils/IPUtils.java: /root/build/xfs-common/common-web/src/main/java/com/yyh/xfs/common/web/utils/IPUtils.java uses unchecked or unsafe operations.
+[INFO] /root/build/xfs-common/common-web/src/main/java/com/yyh/xfs/common/web/utils/IPUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ common-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-common/common-web/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ common-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ common-web ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ common-web ---
+[INFO] Building jar: /root/build/xfs-common/common-web/target/common-web-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------------------< org.example:common-mybatis >---------------------
+[INFO] Building common-mybatis 1.0-SNAPSHOT                              [6/22]
+[INFO]   from xfs-common/common-mybatis/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ common-mybatis ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ common-mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ common-mybatis ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /root/build/xfs-common/common-mybatis/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ common-mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-common/common-mybatis/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ common-mybatis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ common-mybatis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ common-mybatis ---
+[INFO] Building jar: /root/build/xfs-common/common-mybatis/target/common-mybatis-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------< org.example:xfs-modules-api >---------------------
+[INFO] Building xfs-modules-api 1.0-SNAPSHOT                             [7/22]
+[INFO]   from xfs-modules-api/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-modules-api ---
+[INFO] 
+[INFO] ----------------------< org.example:xfs-user-api >----------------------
+[INFO] Building xfs-user-api 1.0-SNAPSHOT                                [8/22]
+[INFO]   from xfs-modules-api/xfs-user-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-user-api ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-user-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-user-api/src/main/resources
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-user-api/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-user-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /root/build/xfs-modules-api/xfs-user-api/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-user-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-user-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-user-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-user-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-user-api ---
+[INFO] Building jar: /root/build/xfs-modules-api/xfs-user-api/target/xfs-user-api-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------< org.example:xfs-modules-server >-------------------
+[INFO] Building xfs-modules-server 1.0-SNAPSHOT                          [9/22]
+[INFO]   from xfs-modules-server/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-modules-server ---
+[INFO] 
+[INFO] --------------------< org.example:xfs-user-server >---------------------
+[INFO] Building xfs-user-server 1.0-SNAPSHOT                            [10/22]
+[INFO]   from xfs-modules-server/xfs-user-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-user-server ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-user-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-user-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /root/build/xfs-modules-server/xfs-user-server/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-user-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-server/xfs-user-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-user-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/build/xfs-modules-server/xfs-user-server/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-user-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-user-server ---
+[INFO] Building jar: /root/build/xfs-modules-server/xfs-user-server/target/xfs-user-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-user-server ---
+[INFO] Layout: JAR
+[INFO] Attaching repackaged archive /root/build/xfs-modules-server/xfs-user-server/target/xfs-user-server-1.0-SNAPSHOT-exec.jar with classifier exec
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-user-server ---
+[INFO] Layout: JAR
+[INFO] Replacing artifact with classifier exec with repackaged archive
+[INFO] 
+[INFO] ------------------------< org.example:xfs-auth >------------------------
+[INFO] Building xfs-auth 1.0-SNAPSHOT                                   [11/22]
+[INFO]   from xfs-auth/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-auth ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-auth ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-auth ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /root/build/xfs-auth/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-auth ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-auth/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-auth ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-auth ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-auth ---
+[INFO] Building jar: /root/build/xfs-auth/target/xfs-auth-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-auth ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-auth ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] ----------------------< org.example:xfs-gateway >-----------------------
+[INFO] Building xfs-gateway 1.0-SNAPSHOT                                [12/22]
+[INFO]   from xfs-gateway/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-gateway ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-gateway ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /root/build/xfs-gateway/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-gateway/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-gateway ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-gateway ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-gateway ---
+[INFO] Building jar: /root/build/xfs-gateway/target/xfs-gateway-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-gateway ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-gateway ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] -----------------------< org.example:xfs-im-api >-----------------------
+[INFO] Building xfs-im-api 1.0-SNAPSHOT                                 [13/22]
+[INFO]   from xfs-modules-api/xfs-im-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-im-api ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-im-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-im-api/src/main/resources
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-im-api/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-im-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /root/build/xfs-modules-api/xfs-im-api/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-im-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-im-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-im-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-im-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-im-api ---
+[INFO] Building jar: /root/build/xfs-modules-api/xfs-im-api/target/xfs-im-api-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------------------< org.example:xfs-im-server >----------------------
+[INFO] Building xfs-im-server 1.0-SNAPSHOT                              [14/22]
+[INFO]   from xfs-modules-server/xfs-im-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-im-server ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-im-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-im-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /root/build/xfs-modules-server/xfs-im-server/target/classes
+[INFO] /root/build/xfs-modules-server/xfs-im-server/src/main/java/com/yyh/xfs/im/consumer/RemindUserConsumer.java: /root/build/xfs-modules-server/xfs-im-server/src/main/java/com/yyh/xfs/im/consumer/RemindUserConsumer.java uses unchecked or unsafe operations.
+[INFO] /root/build/xfs-modules-server/xfs-im-server/src/main/java/com/yyh/xfs/im/consumer/RemindUserConsumer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-im-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-server/xfs-im-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-im-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/build/xfs-modules-server/xfs-im-server/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-im-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-im-server ---
+[INFO] Building jar: /root/build/xfs-modules-server/xfs-im-server/target/xfs-im-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-im-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-im-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] ---------------------< org.example:xfs-notes-api >----------------------
+[INFO] Building xfs-notes-api 1.0-SNAPSHOT                              [15/22]
+[INFO]   from xfs-modules-api/xfs-notes-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-notes-api ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-notes-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-notes-api/src/main/resources
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-notes-api/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-notes-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /root/build/xfs-modules-api/xfs-notes-api/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-notes-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-notes-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-notes-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-notes-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-notes-api ---
+[INFO] Building jar: /root/build/xfs-modules-api/xfs-notes-api/target/xfs-notes-api-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------< org.example:xfs-notes-server >--------------------
+[INFO] Building xfs-notes-server 1.0-SNAPSHOT                           [16/22]
+[INFO]   from xfs-modules-server/xfs-notes-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-notes-server ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-notes-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-notes-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to /root/build/xfs-modules-server/xfs-notes-server/target/classes
+[INFO] /root/build/xfs-modules-server/xfs-notes-server/src/main/java/com/yyh/xfs/notes/service/impl/NotesServiceImpl.java: /root/build/xfs-modules-server/xfs-notes-server/src/main/java/com/yyh/xfs/notes/service/impl/NotesServiceImpl.java uses unchecked or unsafe operations.
+[INFO] /root/build/xfs-modules-server/xfs-notes-server/src/main/java/com/yyh/xfs/notes/service/impl/NotesServiceImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-notes-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-server/xfs-notes-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-notes-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/build/xfs-modules-server/xfs-notes-server/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-notes-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-notes-server ---
+[INFO] Building jar: /root/build/xfs-modules-server/xfs-notes-server/target/xfs-notes-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-notes-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-notes-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] ---------------------< org.example:xfs-search-api >---------------------
+[INFO] Building xfs-search-api 1.0-SNAPSHOT                             [17/22]
+[INFO]   from xfs-modules-api/xfs-search-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-search-api ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-search-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-search-api/src/main/resources
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-search-api/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-search-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /root/build/xfs-modules-api/xfs-search-api/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-search-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-search-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-search-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-search-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-search-api ---
+[INFO] Building jar: /root/build/xfs-modules-api/xfs-search-api/target/xfs-search-api-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------< org.example:xfs-search-server >--------------------
+[INFO] Building xfs-search-server 1.0-SNAPSHOT                          [18/22]
+[INFO]   from xfs-modules-server/xfs-search-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-search-server ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-search-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-search-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /root/build/xfs-modules-server/xfs-search-server/target/classes
+[INFO] /root/build/xfs-modules-server/xfs-search-server/src/main/java/com/yyh/xfs/search/service/impl/NotesSearchServiceImpl.java: Some input files use unchecked or unsafe operations.
+[INFO] /root/build/xfs-modules-server/xfs-search-server/src/main/java/com/yyh/xfs/search/service/impl/NotesSearchServiceImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-search-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-server/xfs-search-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-search-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/build/xfs-modules-server/xfs-search-server/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-search-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-search-server ---
+[INFO] Building jar: /root/build/xfs-modules-server/xfs-search-server/target/xfs-search-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-search-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-search-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --------------------< org.example:xfs-comment-api >---------------------
+[INFO] Building xfs-comment-api 1.0-SNAPSHOT                            [19/22]
+[INFO]   from xfs-modules-api/xfs-comment-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-comment-api ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-comment-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-comment-api/src/main/resources
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-comment-api/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-comment-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /root/build/xfs-modules-api/xfs-comment-api/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-comment-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-api/xfs-comment-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-comment-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-comment-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-comment-api ---
+[INFO] Building jar: /root/build/xfs-modules-api/xfs-comment-api/target/xfs-comment-api-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------< org.example:xfs-comment-server >-------------------
+[INFO] Building xfs-comment-server 1.0-SNAPSHOT                         [20/22]
+[INFO]   from xfs-modules-server/xfs-comment-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-comment-server ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-comment-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-comment-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /root/build/xfs-modules-server/xfs-comment-server/target/classes
+[INFO] /root/build/xfs-modules-server/xfs-comment-server/src/main/java/com/yyh/xfs/comment/service/impl/CommentServiceImpl.java: /root/build/xfs-modules-server/xfs-comment-server/src/main/java/com/yyh/xfs/comment/service/impl/CommentServiceImpl.java uses unchecked or unsafe operations.
+[INFO] /root/build/xfs-modules-server/xfs-comment-server/src/main/java/com/yyh/xfs/comment/service/impl/CommentServiceImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-comment-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-modules-server/xfs-comment-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-comment-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/build/xfs-modules-server/xfs-comment-server/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-comment-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-comment-server ---
+[INFO] Building jar: /root/build/xfs-modules-server/xfs-comment-server/target/xfs-comment-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-comment-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-comment-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --------------------< org.example:xfs-third-server >--------------------
+[INFO] Building xfs-third-server 1.0-SNAPSHOT                           [21/22]
+[INFO]   from xfs-third-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-third-server ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-third-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-third-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /root/build/xfs-third-server/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-third-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-third-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-third-server ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-third-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-third-server ---
+[INFO] Building jar: /root/build/xfs-third-server/target/xfs-third-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-third-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-third-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] ---------------------< org.example:xfs-job-server >---------------------
+[INFO] Building xfs-job-server 1.0-SNAPSHOT                             [22/22]
+[INFO]   from xfs-job-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ xfs-job-server ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ xfs-job-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xfs-job-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /root/build/xfs-job-server/target/classes
+[INFO] /root/build/xfs-job-server/src/main/java/com/yyh/xfs/job/jobhandler/SampleXxlJob.java: /root/build/xfs-job-server/src/main/java/com/yyh/xfs/job/jobhandler/SampleXxlJob.java uses unchecked or unsafe operations.
+[INFO] /root/build/xfs-job-server/src/main/java/com/yyh/xfs/job/jobhandler/SampleXxlJob.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ xfs-job-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /root/build/xfs-job-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xfs-job-server ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ xfs-job-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ xfs-job-server ---
+[INFO] Building jar: /root/build/xfs-job-server/target/xfs-job-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (repackage) @ xfs-job-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot:2.6.3:repackage (default) @ xfs-job-server ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for xiaofanshu 1.0-SNAPSHOT:
+[INFO] 
+[INFO] xiaofanshu ......................................... SUCCESS [  0.206 s]
+[INFO] xfs-common ......................................... SUCCESS [  0.003 s]
+[INFO] common-base ........................................ SUCCESS [  2.557 s]
+[INFO] common-redis ....................................... SUCCESS [  1.226 s]
+[INFO] common-web ......................................... SUCCESS [  1.031 s]
+[INFO] common-mybatis ..................................... SUCCESS [  0.446 s]
+[INFO] xfs-modules-api .................................... SUCCESS [  0.016 s]
+[INFO] xfs-user-api ....................................... SUCCESS [  1.954 s]
+[INFO] xfs-modules-server ................................. SUCCESS [  0.003 s]
+[INFO] xfs-user-server .................................... SUCCESS [  2.859 s]
+[INFO] xfs-auth ........................................... SUCCESS [  0.805 s]
+[INFO] xfs-gateway ........................................ SUCCESS [  2.108 s]
+[INFO] xfs-im-api ......................................... SUCCESS [  0.542 s]
+[INFO] xfs-im-server ...................................... SUCCESS [  1.342 s]
+[INFO] xfs-notes-api ...................................... SUCCESS [  0.604 s]
+[INFO] xfs-notes-server ................................... SUCCESS [  1.959 s]
+[INFO] xfs-search-api ..................................... SUCCESS [  0.557 s]
+[INFO] xfs-search-server .................................. SUCCESS [  1.946 s]
+[INFO] xfs-comment-api .................................... SUCCESS [  0.304 s]
+[INFO] xfs-comment-server ................................. SUCCESS [  1.216 s]
+[INFO] xfs-third-server ................................... SUCCESS [  1.500 s]
+[INFO] xfs-job-server ..................................... SUCCESS [  1.304 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.039 s
+[INFO] Finished at: 2026-10-12T16:03:55Z
+[INFO] ------------------------------------------------------------------------

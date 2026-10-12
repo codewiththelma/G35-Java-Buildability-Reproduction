@@ -1,0 +1,241 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] Tycho Version:  4.0.4 (868454bf476f18ad997abdfd7ef5f88a8fa2d67f)
+[INFO] Tycho Mode:     project
+[INFO] Tycho Builder:  maven
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] parent                                                             [pom]
+[INFO] de.marw.cmake4eclipse.mbs                               [eclipse-plugin]
+[INFO] de.marw.cmake4eclipse.mbs.ui                            [eclipse-plugin]
+[INFO] de.marw.cmake4eclipse.feature                          [eclipse-feature]
+[INFO] repo                                                [eclipse-repository]
+[INFO] targetplatform                               [eclipse-target-definition]
+[INFO] 
+[INFO] --------------------< de.marw.cmake4eclipse:parent >--------------------
+[INFO] Building parent 1.1.0                                              [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ parent ---
+[INFO] 
+[INFO] --- tycho-source:4.0.4:plugin-source (default-plugin-source) @ parent ---
+[INFO] 
+[INFO] ----------< de.marw.cmake4eclipse:de.marw.cmake4eclipse.mbs >-----------
+[INFO] Building de.marw.cmake4eclipse.mbs 3.0.1-SNAPSHOT                  [2/6]
+[INFO]   from de.marw.cmake4eclipse.mbs/pom.xml
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] Resolving target definition file:/root/build/releng/targetplatform/targetplatform.target for environments=[linux/gtk/x86_64, linux/gtk/ppc64, win32/win32/x86_64, macosx/cocoa/x86_64, aix/gtk/ppc, solaris/gtk/sparc], include source mode=honor, referenced repository mode =ignore, execution environment=StandardEEResolutionHints [executionEnvironment=OSGi profile 'JavaSE-17' { source level: 17, target level: 17}], remote p2 repository options=org.eclipse.tycho.p2maven.DefaultProvisioningAgent@7de922ba
+[INFO] ### Using TychoRepositoryTransport for remote P2 access ###
+[INFO]     Cache location:         /root/.m2/repository/.cache/tycho
+[INFO]     Transport mode:         online
+[INFO]     Http Transport type:    Java11Client
+[INFO]     Update mode:            cache first
+[INFO]     Minimum cache duration: 60 minutes
+[INFO]       (you can configure this with -Dtycho.p2.transport.min-cache-minutes=<desired minimum cache duration>)
+[WARNING] Problems resolving provisioning plan.: [Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime.dto [1.4.0,1.5.0).]
+[WARNING] Problems resolving provisioning plan.: [Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime.dto [1.4.0,1.5.0).]
+[WARNING] Problems resolving provisioning plan.: [Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime.dto [1.4.0,1.5.0).]
+[WARNING] Problems resolving provisioning plan.: [Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime.dto [1.4.0,1.5.0).]
+[WARNING] Problems resolving provisioning plan.: [Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime.dto [1.4.0,1.5.0).]
+[WARNING] Problems resolving provisioning plan.: [Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime [1.4.0,1.5.0).; Unable to satisfy dependency from org.apache.felix.scr 2.1.24.v20200924-1939 to java.package; org.osgi.service.component.runtime.dto [1.4.0,1.5.0).]
+[INFO] Resolving dependencies of MavenProject: de.marw.cmake4eclipse:de.marw.cmake4eclipse.mbs:3.0.1-SNAPSHOT @ /root/build/de.marw.cmake4eclipse.mbs/pom.xml
+[INFO] Resolving test dependencies of MavenProject: de.marw.cmake4eclipse:de.marw.cmake4eclipse.mbs:3.0.1-SNAPSHOT @ /root/build/de.marw.cmake4eclipse.mbs/pom.xml
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:build-qualifier (default-build-qualifier) @ de.marw.cmake4eclipse.mbs ---
+[INFO] The project's OSGi version is 3.0.1.202503291746
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-id (default-validate-id) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-version (default-validate-version) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] --- target-platform-configuration:4.0.4:target-platform (default-target-platform) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:validate-classpath (default-validate-classpath) @ de.marw.cmake4eclipse.mbs ---
+[INFO] Resolving class path of de.marw.cmake4eclipse.mbs
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ de.marw.cmake4eclipse.mbs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/build/de.marw.cmake4eclipse.mbs/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:compile (default-compile) @ de.marw.cmake4eclipse.mbs ---
+[INFO] Compiling 39 source files to /root/build/de.marw.cmake4eclipse.mbs/target/classes using Eclipse Compiler for Java(TM) 3.35.0.v20230814-2020
+[INFO] 
+[INFO] --- tycho-bnd:4.0.4:process (default-process) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] --- tycho-ds:4.0.4:declarative-services (default-declarative-services) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ de.marw.cmake4eclipse.mbs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/build/de.marw.cmake4eclipse.mbs/src/test/resources
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:testCompile (default-testCompile) @ de.marw.cmake4eclipse.mbs ---
+[INFO] Resolving JUnit 4 classpath container
+[INFO] Compiling 2 source files to /root/build/de.marw.cmake4eclipse.mbs/target/test-classes using Eclipse Compiler for Java(TM) 3.35.0.v20230814-2020
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:update-consumer-pom (default-update-consumer-pom) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] --- tycho-source:4.0.4:plugin-source (default-plugin-source) @ de.marw.cmake4eclipse.mbs ---
+[INFO] Building jar: /root/build/de.marw.cmake4eclipse.mbs/target/de.marw.cmake4eclipse.mbs-3.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:package-plugin (default-package-plugin) @ de.marw.cmake4eclipse.mbs ---
+[INFO] Building jar: /root/build/de.marw.cmake4eclipse.mbs/target/de.marw.cmake4eclipse.mbs-3.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:p2-metadata-default (default-p2-metadata-default) @ de.marw.cmake4eclipse.mbs ---
+[INFO] 
+[INFO] ---------< de.marw.cmake4eclipse:de.marw.cmake4eclipse.mbs.ui >---------
+[INFO] Building de.marw.cmake4eclipse.mbs.ui 3.0.0-SNAPSHOT               [3/6]
+[INFO]   from de.marw.cmake4eclipse.mbs.ui/pom.xml
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] Resolving dependencies of MavenProject: de.marw.cmake4eclipse:de.marw.cmake4eclipse.mbs.ui:3.0.0-SNAPSHOT @ /root/build/de.marw.cmake4eclipse.mbs.ui/pom.xml
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:build-qualifier (default-build-qualifier) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] The project's OSGi version is 3.0.0.202407081940
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-id (default-validate-id) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-version (default-validate-version) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- target-platform-configuration:4.0.4:target-platform (default-target-platform) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:validate-classpath (default-validate-classpath) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] Resolving class path of de.marw.cmake4eclipse.mbs.ui
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/build/de.marw.cmake4eclipse.mbs.ui/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:compile (default-compile) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] Compiling 44 source files to /root/build/de.marw.cmake4eclipse.mbs.ui/target/classes using Eclipse Compiler for Java(TM) 3.35.0.v20230814-2020
+[INFO] 
+[INFO] --- tycho-bnd:4.0.4:process (default-process) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- tycho-ds:4.0.4:declarative-services (default-declarative-services) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/build/de.marw.cmake4eclipse.mbs.ui/src/test/resources
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:testCompile (default-testCompile) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:update-consumer-pom (default-update-consumer-pom) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --- tycho-source:4.0.4:plugin-source (default-plugin-source) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] Building jar: /root/build/de.marw.cmake4eclipse.mbs.ui/target/de.marw.cmake4eclipse.mbs.ui-3.0.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:package-plugin (default-package-plugin) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] Building jar: /root/build/de.marw.cmake4eclipse.mbs.ui/target/de.marw.cmake4eclipse.mbs.ui-3.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:p2-metadata-default (default-p2-metadata-default) @ de.marw.cmake4eclipse.mbs.ui ---
+[INFO] 
+[INFO] --------< de.marw.cmake4eclipse:de.marw.cmake4eclipse.feature >---------
+[INFO] Building de.marw.cmake4eclipse.feature 5.0.1                       [4/6]
+[INFO]   from de.marw.cmake4eclipse.feature/pom.xml
+[INFO] --------------------------[ eclipse-feature ]---------------------------
+[INFO] Resolving dependencies of MavenProject: de.marw.cmake4eclipse:de.marw.cmake4eclipse.feature:5.0.1 @ /root/build/de.marw.cmake4eclipse.feature/pom.xml
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ de.marw.cmake4eclipse.feature ---
+[INFO] Deleting /root/build/de.marw.cmake4eclipse.feature/target
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:build-qualifier-aggregator (default-build-qualifier-aggregator) @ de.marw.cmake4eclipse.feature ---
+[INFO] The project's OSGi version is 5.0.1
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-id (default-validate-id) @ de.marw.cmake4eclipse.feature ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-version (default-validate-version) @ de.marw.cmake4eclipse.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:4.0.4:target-platform (default-target-platform) @ de.marw.cmake4eclipse.feature ---
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ de.marw.cmake4eclipse.feature ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/build/de.marw.cmake4eclipse.feature/src/main/resources
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:update-consumer-pom (default-update-consumer-pom) @ de.marw.cmake4eclipse.feature ---
+[INFO] 
+[INFO] --- tycho-source:4.0.4:plugin-source (default-plugin-source) @ de.marw.cmake4eclipse.feature ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:package-feature (default-package-feature) @ de.marw.cmake4eclipse.feature ---
+[INFO] Building jar: /root/build/de.marw.cmake4eclipse.feature/target/de.marw.cmake4eclipse.feature-5.0.1.jar
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:p2-metadata-default (default-p2-metadata-default) @ de.marw.cmake4eclipse.feature ---
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:feature-p2-metadata (default-feature-p2-metadata) @ de.marw.cmake4eclipse.feature ---
+[INFO] 
+[INFO] --- tycho-source:4.0.4:feature-source (feature-source) @ de.marw.cmake4eclipse.feature ---
+[INFO] Building jar: /root/build/de.marw.cmake4eclipse.feature/target/de.marw.cmake4eclipse.feature-5.0.1-sources-feature.jar
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:p2-metadata (attach-p2-metadata) @ de.marw.cmake4eclipse.feature ---
+[WARNING] artifact de.marw.cmake4eclipse:de.marw.cmake4eclipse.feature:xml:p2metadata:5.0.1 already attached, replace previous instance
+[WARNING] artifact de.marw.cmake4eclipse:de.marw.cmake4eclipse.feature:xml:p2artifacts:5.0.1 already attached, replace previous instance
+[INFO] 
+[INFO] ---------------------< de.marw.cmake4eclipse:repo >---------------------
+[INFO] Building repo 5.0.1                                                [5/6]
+[INFO]   from releng/repo/pom.xml
+[INFO] -------------------------[ eclipse-repository ]-------------------------
+[INFO] Resolving dependencies of MavenProject: de.marw.cmake4eclipse:repo:5.0.1 @ /root/build/releng/repo/pom.xml
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ repo ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:build-qualifier-aggregator (default-build-qualifier-aggregator) @ repo ---
+[INFO] The project's OSGi version is 5.0.1
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean-1) @ repo ---
+[INFO] 
+[INFO] --- target-platform-configuration:4.0.4:target-platform (default-target-platform) @ repo ---
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ repo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/build/releng/repo/src/main/resources
+[INFO] 
+[INFO] --- tycho-p2-publisher:4.0.4:publish-osgi-ee (default-publish-osgi-ee) @ repo ---
+[WARNING]  Parameter 'qualifier' (user property 'buildQualifier') is read-only, must not be used in configuration
+[INFO] Published profile IUs: [a.jre.javase 17.0.0]
+[INFO] 
+[INFO] --- tycho-p2-publisher:4.0.4:publish-products (default-publish-products) @ repo ---
+[WARNING]  Parameter 'qualifier' (user property 'buildQualifier') is read-only, must not be used in configuration
+[INFO] 
+[INFO] --- tycho-p2-publisher:4.0.4:publish-categories (default-publish-categories) @ repo ---
+[WARNING]  Parameter 'qualifier' (user property 'buildQualifier') is read-only, must not be used in configuration
+[INFO] 
+[INFO] --- tycho-p2-publisher:4.0.4:attach-artifacts (default-attach-artifacts) @ repo ---
+[WARNING]  Parameter 'qualifier' (user property 'buildQualifier') is read-only, must not be used in configuration
+[INFO] 
+[INFO] --- tycho-p2-repository:4.0.4:assemble-repository (default-assemble-repository) @ repo ---
+[WARNING]  Parameter 'qualifier' (user property 'buildQualifier') is read-only, must not be used in configuration
+[INFO] 
+[INFO] --- tycho-source:4.0.4:plugin-source (default-plugin-source) @ repo ---
+[INFO] 
+[INFO] --- tycho-p2-repository:4.0.4:archive-repository (default-archive-repository) @ repo ---
+[WARNING]  Parameter 'qualifier' (user property 'buildQualifier') is read-only, must not be used in configuration
+[INFO] Building zip: /root/build/releng/repo/target/cmake4eclipse-5.0.1.zip
+[INFO] 
+[INFO] ----------------< de.marw.cmake4eclipse:targetplatform >----------------
+[INFO] Building targetplatform 1.0.1                                      [6/6]
+[INFO]   from releng/targetplatform/pom.xml
+[INFO] ---------------------[ eclipse-target-definition ]----------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ targetplatform ---
+[INFO] 
+[INFO] --- tycho-source:4.0.4:plugin-source (default-plugin-source) @ targetplatform ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:package-target-definition (default-package-target-definition) @ targetplatform ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] parent 1.1.0 ....................................... SUCCESS [  0.063 s]
+[INFO] de.marw.cmake4eclipse.mbs 3.0.1-SNAPSHOT ........... SUCCESS [ 18.682 s]
+[INFO] de.marw.cmake4eclipse.mbs.ui 3.0.0-SNAPSHOT ........ SUCCESS [  1.284 s]
+[INFO] de.marw.cmake4eclipse.feature 5.0.1 ................ SUCCESS [  0.304 s]
+[INFO] repo 5.0.1 ......................................... SUCCESS [  0.851 s]
+[INFO] targetplatform 1.0.1 ............................... SUCCESS [  0.005 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.287 s
+[INFO] Finished at: 2026-10-12T16:07:06Z
+[INFO] ------------------------------------------------------------------------

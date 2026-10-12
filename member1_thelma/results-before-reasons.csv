@@ -1,0 +1,5 @@
+name,commit,tool,wrapper,java11,java17,java21,java23
+0pandadev/nextron,c9551c25fc33f8e9884bc585d48aabebc0705bc0,Maven,,1,0,0,1
+1135/equationexploit,f5d6bbd1742d335cd94ad037b49765e0b820fcd3,Maven,,0,0,0,0
+123yyh123/xiaofanshu,3c9218e5fb07638abfc9d528a28f273576883fb4,Maven,,0,0,1,1
+15knots/cmake4eclipse,68bac71ed08cd7e8847362e185e5c6c82bcec33a,Maven,,1,0,0,0

@@ -1,0 +1,697 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< net.pandadev:Nextron >------------------------
+[INFO] Building Nextron 1.6.3
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Nextron ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Nextron ---
+[INFO] Copying 7 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ Nextron ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 79 source files with javac [debug target 17] to target/classes
+[INFO] /root/build/src/main/java/net/pandadev/nextron/utils/UpdateChecker.java: Some input files use or override a deprecated API.
+[INFO] /root/build/src/main/java/net/pandadev/nextron/utils/UpdateChecker.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[29,40] cannot find symbol
+  symbol:   method getNoPerm()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[33,21] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[34,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[38,50] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[40,42] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[41,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[43,21] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[44,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[47,44] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[49,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[56,13] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[57,13] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[58,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[65,41] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[86,41] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[183,41] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[197,41] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[26,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[33,36] cannot find symbol
+  symbol:   method getCommandInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[37,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[28,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[35,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[42,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[49,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/WarpArgument.java:[25,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/apis/VanishAPI.java:[36,45] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/apis/VanishAPI.java:[38,45] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/apis/VanishAPI.java:[49,66] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/SeedArgument.java:[20,44] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[38,49] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,95] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,97] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[53,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[57,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[63,33] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,98] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[67,32] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,96] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[74,33] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,95] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[86,64] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[88,44] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,44] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,112] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[93,27] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[97,29] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[28,40] cannot find symbol
+  symbol:   method getNoPerm()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[35,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[42,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[49,48] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[54,48] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[59,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/listeners/JoinListener.java:[30,73] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/listeners/JoinListener.java:[46,13] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[30,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[34,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[40,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[62,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[37,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[48,45] cannot find symbol
+  symbol:   method getName()
+  location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[58,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[65,49] cannot find symbol
+  symbol:   method getName()
+  location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[79,51] cannot find symbol
+  symbol:   method getName()
+  location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[83,49] cannot find symbol
+  symbol:   method getName()
+  location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[86,29] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[100,48] cannot find symbol
+  symbol:   method getName()
+  location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[104,27] cannot find symbol
+  symbol:   method getName()
+  location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[107,29] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/GameModeArgument.java:[33,49] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[102,63] cannot find symbol
+  symbol:   method getInvalidPlayer()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[103,58] cannot find symbol
+  symbol:   method getCommandInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[104,66] cannot find symbol
+  symbol:   method getNoPerm()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[106,41] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/RankArgument.java:[25,44] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/RankArgument.java:[30,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/listeners/ChatEditor.java:[22,47] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[30,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[34,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[40,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[62,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[47,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[54,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[62,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[64,43] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[70,50] cannot find symbol
+  symbol:   method getSeed()
+  location: variable value of type net.pandadev.nextron.arguments.objects.Seed
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[73,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[87,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[92,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[107,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[109,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[111,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[120,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[125,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[128,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[130,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.692 s
+[INFO] Finished at: 2026-10-12T16:01:01Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project Nextron: Compilation failure: Compilation failure: 
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[29,40] cannot find symbol
+[ERROR]   symbol:   method getNoPerm()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[33,21] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[34,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[38,50] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[40,42] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[41,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[43,21] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[44,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[47,44] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[49,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[56,13] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[57,13] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[58,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[65,41] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[86,41] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[183,41] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/guis/features/RankGUIs.java:[197,41] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[26,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[33,36] cannot find symbol
+[ERROR]   symbol:   method getCommandInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[37,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[28,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[35,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[42,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[49,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/WarpArgument.java:[25,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/apis/VanishAPI.java:[36,45] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/apis/VanishAPI.java:[38,45] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/apis/VanishAPI.java:[49,66] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/SeedArgument.java:[20,44] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[38,49] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,95] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,97] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[53,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[57,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[63,33] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,98] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[67,32] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,96] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[74,33] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,95] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[86,64] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[88,44] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,44] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,112] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[93,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[97,29] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[28,40] cannot find symbol
+[ERROR]   symbol:   method getNoPerm()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[35,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[42,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[49,48] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[54,48] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/SpeedCommand.java:[59,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/listeners/JoinListener.java:[30,73] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/listeners/JoinListener.java:[46,13] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[30,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[34,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[40,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpaCommand.java:[62,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[37,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[48,45] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[58,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[65,49] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[79,51] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[83,49] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[86,29] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[100,48] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[104,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable rank of type net.pandadev.nextron.arguments.objects.Rank
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/RankCommand.java:[107,29] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/GameModeArgument.java:[33,49] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[102,63] cannot find symbol
+[ERROR]   symbol:   method getInvalidPlayer()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[103,58] cannot find symbol
+[ERROR]   symbol:   method getCommandInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[104,66] cannot find symbol
+[ERROR]   symbol:   method getNoPerm()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/Main.java:[106,41] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/RankArgument.java:[25,44] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/arguments/RankArgument.java:[30,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/listeners/ChatEditor.java:[22,47] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[30,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[34,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[40,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[62,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[47,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[54,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[62,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[64,43] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[70,50] cannot find symbol
+[ERROR]   symbol:   method getSeed()
+[ERROR]   location: variable value of type net.pandadev.nextron.arguments.objects.Seed
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[73,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[87,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[92,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[107,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[109,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[111,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[120,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[125,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[128,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /root/build/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[130,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project Nextron: Compilation failure
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1269)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:212)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
