@@ -1,0 +1,17 @@
+project,jdk,my_result,original_result,comparison
+4pr0n/ripme,11,PASS,PASS,MATCH
+4pr0n/ripme,17,FAIL,FAIL,MATCH
+4pr0n/ripme,21,FAIL,FAIL,MATCH
+4pr0n/ripme,23,FAIL,FAIL,MATCH
+4ra1n/jar-analyzer-gui,11,FAIL,FAIL,MATCH
+4ra1n/jar-analyzer-gui,17,FAIL,FAIL,MATCH
+4ra1n/jar-analyzer-gui,21,FAIL,FAIL,MATCH
+4ra1n/jar-analyzer-gui,23,FAIL,FAIL,MATCH
+4ra1n/super-xray,11,FAIL,FAIL,MATCH
+4ra1n/super-xray,17,FAIL,FAIL,MATCH
+4ra1n/super-xray,21,FAIL,FAIL,MATCH
+4ra1n/super-xray,23,FAIL,FAIL,MATCH
+642933588/jiron-cloud,11,PASS,PASS,MATCH
+642933588/jiron-cloud,17,PASS,PASS,MATCH
+642933588/jiron-cloud,21,PASS,PASS,MATCH
+642933588/jiron-cloud,23,FAIL,FAIL,MATCH
