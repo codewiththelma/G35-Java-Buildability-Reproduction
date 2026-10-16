@@ -1,0 +1,17 @@
+name,jdk,mine,original,match
+spring-boot-seed,java11,PASS,PASS,yes
+spring-boot-seed,java17,PASS,PASS,yes
+spring-boot-seed,java21,PASS,PASS,yes
+spring-boot-seed,java23,FAIL,FAIL,yes
+ssgwt-lib,java11,FAIL,FAIL,yes
+ssgwt-lib,java17,FAIL,FAIL,yes
+ssgwt-lib,java21,FAIL,FAIL,yes
+ssgwt-lib,java23,FAIL,FAIL,yes
+tyme4j,java11,FAIL,FAIL,yes
+tyme4j,java17,FAIL,FAIL,yes
+tyme4j,java21,FAIL,FAIL,yes
+tyme4j,java23,FAIL,FAIL,yes
+xjavafxtool-spring,java11,FAIL,FAIL,yes
+xjavafxtool-spring,java17,FAIL,FAIL,yes
+xjavafxtool-spring,java21,FAIL,FAIL,yes
+xjavafxtool-spring,java23,FAIL,FAIL,yes

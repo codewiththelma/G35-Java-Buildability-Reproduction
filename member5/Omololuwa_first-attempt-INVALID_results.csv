@@ -1,0 +1,5 @@
+name,commit,tool,wrapper,java11,java17,java21,java23
+spring-boot-seed,cb4bdd7fa6e3b41673a1734ea8ae9c1f25e4b995,Maven,,1,1,1,1
+ssgwt-lib,1ff21223e4367edab880cebabe1b5a54e9fe4a8f,Ant,,1,1,1,1
+tyme4j,e13a12acf2ff0c60182944802caf05376cd82dd9,Maven,,1,1,1,1
+xjavafxtool-spring,a12d3726714ba8169fbc3919befcf7e18bdb98b4,Maven,,1,1,1,1
