@@ -1,0 +1,40 @@
+Downloading https://services.gradle.org/distributions/gradle-5.5.1-bin.zip
+.....................................................................................
+
+Welcome to Gradle 5.5.1!
+
+Here are the highlights of this release:
+ - Kickstart Gradle plugin development with gradle init
+ - Distribute organization-wide Gradle properties in custom Gradle distributions
+ - Transform dependency artifacts on resolution
+
+For more details see https://docs.gradle.org/5.5.1/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+Fabric Loom: 0.6.60 Build(release #60)
+Reading /root/.gradle/caches/fabric-loom/mappings/steps/inverted-intermediary.tiny
+Reading /root/.gradle/caches/fabric-loom/mappings/steps/unmerged-yarn.tiny
+Merging /root/.gradle/caches/fabric-loom/mappings/steps/inverted-intermediary.tiny with /root/.gradle/caches/fabric-loom/mappings/steps/unmerged-yarn.tiny
+Merged mappings written to /root/.gradle/caches/fabric-loom/mappings/steps/unordered-merged.tiny
+Using project based jar storage
+:remapping minecraft (TinyRemapper, official -> named)
+:remapping minecraft (TinyRemapper, official -> intermediary)
+Processing file: minecraft-1.16.5-projectmapped-net.fabricmc.yarn-1.16.5+build.1-v2.jar
+Applying access widener to net.minecraft.util.collection.DefaultedList
+Applying access widener to net.minecraft.inventory.DoubleInventory
+:remapping 2 mods (TinyRemapper, intermediary -> named)
+:remapping sources
+
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :remapJar
+> Task :assemble
+
+BUILD SUCCESSFUL in 5m 59s
+5 actionable tasks: 5 executed
