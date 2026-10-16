@@ -1,0 +1,13 @@
+Command: python run_subset.py ~/g35-projects/member-3 ~/g35-projects/member-3-results ~/g35-projects/member-3-results/logs
+jdk-study commit: 16a4b3d227edece0450ce1a854de3d11b640c73f
+Python 3.11.14
+Docker version 29.8.0, build 88096ef
+REPOSITORY        TAG       DIGEST                                                                    IMAGE ID       CREATED         SIZE
+sulir/jdk-study   23        sha256:5932b0f466c6809ba130bb1e1356ea07fd71709b5faea1028e87db98d827c4d4   5932b0f466c6   17 months ago   1.23GB
+sulir/jdk-study   21        sha256:3be005f9aa4d2af7ead7f876ffeedd327005af74a646c99af46ef5573a0b428d   3be005f9aa4d   17 months ago   1.22GB
+sulir/jdk-study   17        sha256:3c3a550a297dfe852e4cd9623e9bc19cd1f51ad5334799edb24425264a3b93cb   3c3a550a297d   17 months ago   1.17GB
+sulir/jdk-study   11        sha256:a9bcff3e059c9980bc66a788f85f6d33b5cf501bf91afbe1ab4c5cf3dfe8c617   a9bcff3e059c   17 months ago   1.17GB
+373675032_smart-medicine cc3ec30c3befa2db4f88291950da3079c96cb5e6
+3arthqu4ke_handlewrapper 266f9f7737cfc94694f5a289dca5dfdd614d80c1
+3arthqu4ke_pingbypass-client 7ad7deb47db5d63cee6d8006be1d4b809e733906
+4drian3d_SignedVelocity bc86cacf3eef038f392c54bfd95e76a541b3281a

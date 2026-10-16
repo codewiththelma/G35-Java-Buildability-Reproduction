@@ -1,0 +1,85 @@
+
+Welcome to Gradle 4.9!
+
+Here are the highlights of this release:
+ - Experimental APIs for creating and configuring tasks lazily
+ - Pass arguments to JavaExec via CLI
+ - Auxiliary publication dependency support for multi-project builds
+ - Improved dependency insight report
+
+For more details see https://docs.gradle.org/4.9/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.9/userguide/gradle_daemon.html.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Unable to start the daemon process.
+This problem might be caused by incorrect configuration of the daemon.
+For example, an unrecognized jvm option is used.
+Please refer to the user guide chapter on the daemon at https://docs.gradle.org/4.9/userguide/gradle_daemon.html
+Please read the following process output to find out more:
+-----------------------
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+java.lang.ExceptionInInitializerError (no error message)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleException: Unable to start the daemon process.
+This problem might be caused by incorrect configuration of the daemon.
+For example, an unrecognized jvm option is used.
+Please refer to the user guide chapter on the daemon at https://docs.gradle.org/4.9/userguide/gradle_daemon.html
+Please read the following process output to find out more:
+-----------------------
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+java.lang.ExceptionInInitializerError (no error message)
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+	at org.gradle.launcher.daemon.client.DaemonGreeter.parseDaemonOutput(DaemonGreeter.java:35)
+	at org.gradle.launcher.daemon.client.DefaultDaemonStarter.startProcess(DefaultDaemonStarter.java:160)
+	at org.gradle.launcher.daemon.client.DefaultDaemonStarter.startDaemon(DefaultDaemonStarter.java:136)
+	at org.gradle.launcher.daemon.client.DefaultDaemonConnector.doStartDaemon(DefaultDaemonConnector.java:212)
+	at org.gradle.launcher.daemon.client.DefaultDaemonConnector.startSingleUseDaemon(DefaultDaemonConnector.java:237)
+	at org.gradle.launcher.daemon.client.SingleUseDaemonClient.execute(SingleUseDaemonClient.java:51)
+	at org.gradle.launcher.daemon.client.SingleUseDaemonClient.execute(SingleUseDaemonClient.java:37)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org

@@ -1,0 +1,5 @@
+name,commit,tool,wrapper,java11,java17,java21,java23
+4drian3d/SignedVelocity,bc86cacf3eef038f392c54bfd95e76a541b3281a,Gradle,gradlew,1,1,0,0
+3arthqu4ke/handlewrapper,266f9f7737cfc94694f5a289dca5dfdd614d80c1,Maven,,0,0,0,0
+373675032/smart-medicine,cc3ec30c3befa2db4f88291950da3079c96cb5e6,Maven,,0,1,1,1
+3arthqu4ke/pingbypass-client,7ad7deb47db5d63cee6d8006be1d4b809e733906,Gradle,gradlew,0,1,1,1

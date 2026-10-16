@@ -1,0 +1,153 @@
+
+Welcome to Gradle 8.13!
+
+Here are the highlights of this release:
+ - Daemon JVM auto-provisioning
+ - Enhancements for Scala plugin and JUnit testing
+ - Improvements for build authors and plugin developers
+
+For more details see https://docs.gradle.org/8.13/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Type-safe project accessors is an incubating feature.
+
+> Configure project :signedvelocity-fabric
+Fabric Loom: 1.10.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Using of the official minecraft mappings is at your own risk!
+Please make sure to read and understand the following license:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# (c) 2020 Microsoft Corporation. These mappings are provided "as-is" and you bear the risk of using them. You may copy and use the mappings for development purposes, but you may not redistribute the mappings complete and unmodified. Microsoft makes no warranties, express or implied, with respect to the mappings provided here.  Use and modification of this document or the source code (in any form) of Minecraft: Java Edition is governed by the Minecraft End User License Agreement available at https://account.mojang.com/documents/minecraft_eula.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:remapping 50 mods from modImplementation (java-api)
+:remapping sources
+
+> Configure project :signedvelocity-sponge-10
+SpongePowered Plugin 'GRADLE' Toolset Version '2.3.0'
+
+> Configure project :signedvelocity-sponge-8
+SpongePowered Plugin 'GRADLE' Toolset Version '2.3.0'
+
+> Task :clean UP-TO-DATE
+> Task :signedvelocity-backend-common:clean UP-TO-DATE
+> Task :signedvelocity-fabric:clean
+> Task :signedvelocity-minestom:clean UP-TO-DATE
+> Task :signedvelocity-paper:clean UP-TO-DATE
+> Task :signedvelocity-proxy:clean UP-TO-DATE
+> Task :signedvelocity-sponge-10:clean UP-TO-DATE
+> Task :signedvelocity-sponge-8:clean UP-TO-DATE
+> Task :signedvelocity-sponge-common:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :assemble
+> Task :signedvelocity-backend-common:compileJava
+> Task :signedvelocity-backend-common:processResources NO-SOURCE
+> Task :signedvelocity-backend-common:classes
+> Task :signedvelocity-backend-common:jar
+> Task :signedvelocity-backend-common:assemble
+> Task :signedvelocity-fabric:compileJava
+> Task :signedvelocity-fabric:processResources
+> Task :signedvelocity-fabric:classes
+> Task :signedvelocity-fabric:jar
+> Task :signedvelocity-fabric:compileTestJava NO-SOURCE
+> Task :signedvelocity-fabric:processIncludeJars
+> Task :signedvelocity-fabric:shadowJar
+> Task :signedvelocity-fabric:sourcesJar
+> Task :signedvelocity-minestom:compileJava
+> Task :signedvelocity-minestom:processResources NO-SOURCE
+> Task :signedvelocity-minestom:classes
+> Task :signedvelocity-minestom:jar
+
+> Task :signedvelocity-minestom:javadoc
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/listener/PlayerChatListener.java:9: warning: no comment
+public final class PlayerChatListener implements Consumer<PlayerChatEvent> {
+             ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/listener/PlayerChatListener.java:9: warning: use of default constructor, which does not provide a comment
+public final class PlayerChatListener implements Consumer<PlayerChatEvent> {
+             ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/listener/PlayerCommandListener.java:9: warning: no comment
+public final class PlayerCommandListener implements Consumer<PlayerCommandEvent> {
+             ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/listener/PlayerCommandListener.java:9: warning: use of default constructor, which does not provide a comment
+public final class PlayerCommandListener implements Consumer<PlayerCommandEvent> {
+             ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/listener/PluginMessageListener.java:15: warning: no comment
+public final class PluginMessageListener implements Consumer<PlayerPluginMessageEvent> {
+             ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/listener/PluginMessageListener.java:15: warning: use of default constructor, which does not provide a comment
+public final class PluginMessageListener implements Consumer<PlayerPluginMessageEvent> {
+             ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/SignedVelocity.java:18: warning: no comment
+    public static final String CHANNEL = "signedvelocity:main";
+                               ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/SignedVelocity.java:17: warning: use of default constructor, which does not provide a comment
+public final class SignedVelocity {
+             ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/SignedVelocity.java:37: warning: no comment
+    public static SignedQueue chatQueue() {
+                              ^
+/root/build/backend/minestom/src/main/java/io/github/_4drian3d/signedvelocity/minestom/SignedVelocity.java:41: warning: no comment
+    public static SignedQueue commandQueue() {
+                              ^
+10 warnings
+
+> Task :signedvelocity-minestom:javadocJar
+> Task :signedvelocity-minestom:sourcesJar
+> Task :signedvelocity-minestom:assemble
+> Task :signedvelocity-fabric:remapJar
+> Task :signedvelocity-fabric:remapSourcesJar
+> Task :signedvelocity-paper:compileJava
+> Task :signedvelocity-paper:generatePaperPluginDescription
+> Task :signedvelocity-paper:processResources
+> Task :signedvelocity-paper:classes
+> Task :signedvelocity-paper:jar
+> Task :signedvelocity-paper:assemble
+> Task :signedvelocity-proxy:processResources NO-SOURCE
+> Task :signedvelocity-proxy:generateJavaTemplates
+> Task :signedvelocity-sponge-common:compileJava
+> Task :signedvelocity-proxy:compileJava
+Note: /root/build/velocity/src/main/java/io/github/_4drian3d/signedvelocity/velocity/listener/PlayerChatListener.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :signedvelocity-proxy:classes
+> Task :signedvelocity-proxy:jar
+> Task :signedvelocity-proxy:assemble
+> Task :signedvelocity-sponge-common:processResources NO-SOURCE
+> Task :signedvelocity-sponge-common:classes
+> Task :signedvelocity-sponge-common:jar
+
+> Task :signedvelocity-sponge-10:compileJava
+warning: Supported source version 'RELEASE_17' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '21'
+1 warning
+
+> Task :signedvelocity-sponge-10:writePluginMetadata
+> Task :signedvelocity-sponge-10:processResources
+> Task :signedvelocity-sponge-10:classes
+> Task :signedvelocity-sponge-10:jar
+> Task :signedvelocity-sponge-10:assemble
+
+> Task :signedvelocity-sponge-8:compileJava
+warning: Supported source version 'RELEASE_8' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '21'
+1 warning
+
+> Task :signedvelocity-sponge-8:writePluginMetadata
+> Task :signedvelocity-sponge-8:processResources
+> Task :signedvelocity-sponge-8:classes
+> Task :signedvelocity-sponge-8:jar
+> Task :signedvelocity-sponge-8:assemble
+> Task :signedvelocity-sponge-common:assemble
+> Task :signedvelocity-fabric:assemble
+
+[Incubating] Problems report is available at: file:///root/build/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 5m 14s
+42 actionable tasks: 34 executed, 8 up-to-date

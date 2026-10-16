@@ -1,0 +1,89 @@
+===== ENVIRONMENT =====
+Command: python run_subset.py ~/g35-projects/member-3 ~/g35-projects/member-3-results ~/g35-projects/member-3-results/logs
+jdk-study commit: 16a4b3d227edece0450ce1a854de3d11b640c73f
+Python 3.11.14
+Docker version 29.8.0, build 88096ef
+REPOSITORY        TAG       DIGEST                                                                    IMAGE ID       CREATED         SIZE
+sulir/jdk-study   23        sha256:5932b0f466c6809ba130bb1e1356ea07fd71709b5faea1028e87db98d827c4d4   5932b0f466c6   17 months ago   1.23GB
+sulir/jdk-study   21        sha256:3be005f9aa4d2af7ead7f876ffeedd327005af74a646c99af46ef5573a0b428d   3be005f9aa4d   17 months ago   1.22GB
+sulir/jdk-study   17        sha256:3c3a550a297dfe852e4cd9623e9bc19cd1f51ad5334799edb24425264a3b93cb   3c3a550a297d   17 months ago   1.17GB
+sulir/jdk-study   11        sha256:a9bcff3e059c9980bc66a788f85f6d33b5cf501bf91afbe1ab4c5cf3dfe8c617   a9bcff3e059c   17 months ago   1.17GB
+373675032_smart-medicine cc3ec30c3befa2db4f88291950da3079c96cb5e6
+3arthqu4ke_handlewrapper 266f9f7737cfc94694f5a289dca5dfdd614d80c1
+3arthqu4ke_pingbypass-client 7ad7deb47db5d63cee6d8006be1d4b809e733906
+4drian3d_SignedVelocity bc86cacf3eef038f392c54bfd95e76a541b3281a
+
+===== results.csv =====
+name,commit,tool,wrapper,java11,java17,java21,java23
+4drian3d/SignedVelocity,bc86cacf3eef038f392c54bfd95e76a541b3281a,Gradle,gradlew,1,1,0,0
+3arthqu4ke/handlewrapper,266f9f7737cfc94694f5a289dca5dfdd614d80c1,Maven,,0,0,0,0
+373675032/smart-medicine,cc3ec30c3befa2db4f88291950da3079c96cb5e6,Maven,,0,1,1,1
+3arthqu4ke/pingbypass-client,7ad7deb47db5d63cee6d8006be1d4b809e733906,Gradle,gradlew,0,1,1,1
+
+===== LOG FILES =====
+/home/elcapitan/g35-projects/member-3-evidence/logs:
+373675032_smart-medicine
+3arthqu4ke_handlewrapper
+3arthqu4ke_pingbypass-client
+4drian3d_SignedVelocity
+
+/home/elcapitan/g35-projects/member-3-evidence/logs/373675032_smart-medicine:
+11.pass
+17.fail
+21.fail
+23.fail
+
+/home/elcapitan/g35-projects/member-3-evidence/logs/3arthqu4ke_handlewrapper:
+11.pass
+17.pass
+21.pass
+23.pass
+
+/home/elcapitan/g35-projects/member-3-evidence/logs/3arthqu4ke_pingbypass-client:
+11.pass
+17.fail
+21.fail
+23.fail
+
+/home/elcapitan/g35-projects/member-3-evidence/logs/4drian3d_SignedVelocity:
+11.fail
+17.fail
+21.pass
+23.pass
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/373675032_smart-medicine/17.fail (key lines) =====
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project smart-medicine: Fatal error compiling: java.lang.ExceptionInInitializerError: Unable to make field private com.sun.tools.javac.processing.JavacProcessingEnvironment$DiscoveredProcessors com.sun.tools.javac.processing.JavacProcessingEnvironment.discoveredProcs accessible: module jdk.compiler does not "opens com.sun.tools.javac.processing" to unnamed module @4fe4503a -> [Help 1]
+Caused by: org.apache.maven.plugin.MojoExecutionException: Fatal error compiling
+Caused by: org.codehaus.plexus.compiler.CompilerException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.RuntimeException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.ExceptionInInitializerError
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/373675032_smart-medicine/21.fail (key lines) =====
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project smart-medicine: Fatal error compiling: java.lang.ExceptionInInitializerError: Unable to make field private com.sun.tools.javac.processing.JavacProcessingEnvironment$DiscoveredProcessors com.sun.tools.javac.processing.JavacProcessingEnvironment.discoveredProcs accessible: module jdk.compiler does not "opens com.sun.tools.javac.processing" to unnamed module @417bfebd -> [Help 1]
+Caused by: org.apache.maven.plugin.MojoExecutionException: Fatal error compiling
+Caused by: org.codehaus.plexus.compiler.CompilerException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.RuntimeException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.ExceptionInInitializerError
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/373675032_smart-medicine/23.fail (key lines) =====
+[ERROR] COMPILATION ERROR : 
+[ERROR] /root/build/src/main/java/world/xuewei/service/HistoryService.java:[51,29] cannot find symbol
+[ERROR] /root/build/src/main/java/world/xuewei/service/HistoryService.java:[56,39] cannot find symbol
+[ERROR] /root/build/src/main/java/world/xuewei/service/HistoryService.java:[71,16] cannot find symbol
+[ERROR] /root/build/src/main/java/world/xuewei/service/HistoryService.java:[79,82] invalid method reference
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/3arthqu4ke_pingbypass-client/17.fail (key lines) =====
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/3arthqu4ke_pingbypass-client/21.fail (key lines) =====
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/3arthqu4ke_pingbypass-client/23.fail (key lines) =====
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/4drian3d_SignedVelocity/11.fail (key lines) =====
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve net.fabricmc:fabric-loom:1.10.2.
+Caused by: org.gradle.internal.component.resolution.failure.exception.VariantSelectionByAttributesException: Dependency requires at least JVM runtime version 17. This build uses a Java 11 JVM.
+BUILD FAILED in 26s
+
+===== /home/elcapitan/g35-projects/member-3-evidence/logs/4drian3d_SignedVelocity/17.fail (key lines) =====
+Caused by: java.lang.RuntimeException: Failed to setup Minecraft, java.lang.IllegalStateException: Minecraft 1.21.2 requires Java 21 but Gradle is using 17
+Caused by: java.lang.IllegalStateException: Minecraft 1.21.2 requires Java 21 but Gradle is using 17
+BUILD FAILED in 1m 31s
