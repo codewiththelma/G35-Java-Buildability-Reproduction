@@ -1,0 +1,319 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] mc                                                                 [pom]
+[INFO] mc-core                                                            [jar]
+[INFO] mc-mvc                                                             [jar]
+[INFO] 
+[INFO] ----------------------------< com.ttsh:mc >-----------------------------
+[INFO] Building mc 0.0.1-SNAPSHOT                                         [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.0.0:clean (default-clean) @ mc ---
+[INFO] 
+[INFO] ------------------------< com.ttsh.mc:mc-core >-------------------------
+[INFO] Building mc-core 0.0.1-SNAPSHOT                                    [2/3]
+[INFO]   from mc-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+[WARNING] 2 problems were encountered while building the effective model for com.alibaba:druid:jar:1.1.9 during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- clean:3.0.0:clean (default-clean) @ mc-core ---
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ mc-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/build/mc-core/src/main/resources
+[INFO] skip non existing resourceDirectory /root/build/mc-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ mc-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /root/build/mc-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] error reading /root/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar; Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyException.java:[1,1] cannot access com.ttsh.mc.config.exception
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseResultUtil.java:[1,1] cannot access com.ttsh.mc.config.response
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/utils/Helper.java:[1,1] cannot access com.ttsh.mc.utils
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MyMetaObjectHandler.java:[1,1] cannot access com.ttsh.mc.config.mybatisplus
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/druid/DruidConfiguration.java:[1,1] cannot access com.ttsh.mc.config.druid
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/swagger2/Swagger2Config.java:[1,1] cannot access com.ttsh.mc.config.swagger2
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/cros/CorsConfig.java:[1,1] cannot access com.ttsh.mc.config.cros
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[11,8] cannot access java.lang
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[26,19] cannot find symbol
+  symbol:   class Integer
+  location: class com.ttsh.mc.config.response.ResponseCode
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[28,18] cannot find symbol
+  symbol:   class Integer
+  location: class com.ttsh.mc.config.response.ResponseCode
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[32,12] cannot find symbol
+  symbol:   class Integer
+  location: class com.ttsh.mc.config.response.ResponseCode
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[3,8] cannot access cn
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[3,10] cannot access cn.hutool
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[3,33] import requires canonical name for <any>.core.exceptions.ValidateException
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[6,35] cannot find symbol
+  symbol:   class ResponseResultUtil
+  location: package com.ttsh.mc.config.response
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[7,8] cannot access org
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[7,11] cannot access org.springframework
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[7,47] import requires canonical name for <any>.web.bind.annotation.ControllerAdvice
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[8,27] cannot access org.springframework.web
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[8,31] cannot access org.springframework.web.bind
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[8,47] import requires canonical name for <any>.annotation.ExceptionHandler
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[9,36] cannot access org.springframework.web.bind.annotation
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[11,11] cannot access org.slf4j
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[11,17] package org.slf4j does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[12,17] package org.slf4j does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[13,31] cannot access org.springframework.web.servlet
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[13,39] package org.springframework.web.servlet does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[23,2] cannot find symbol
+  symbol: class ControllerAdvice
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[3,11] cannot access com.baomidou
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[3,20] cannot access com.baomidou.mybatisplus
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[3,44] import requires canonical name for <any>.incrementer.H2KeyGenerator
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[4,32] cannot access com.baomidou.mybatisplus.incrementer
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[4,44] package com.baomidou.mybatisplus.incrementer does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[5,32] cannot access com.baomidou.mybatisplus.mapper
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[5,39] package com.baomidou.mybatisplus.mapper does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[6,39] package com.baomidou.mybatisplus.mapper does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[7,39] package com.baomidou.mybatisplus.mapper does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[8,11] cannot access org.mybatis
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[8,19] cannot access org.mybatis.spring
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[8,37] import requires canonical name for <any>.annotation.MapperScan
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[9,27] cannot access org.springframework.context
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[9,35] cannot access org.springframework.context.annotation
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[9,46] import requires canonical name for <any>.Bean
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[10,46] package org.springframework.context.annotation does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[12,32] cannot access com.baomidou.mybatisplus.plugins
+  ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[12,40] package com.baomidou.mybatisplus.plugins does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[13,40] package com.baomidou.mybatisplus.plugins does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[23,2] cannot find symbol
+  symbol: class Configuration
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[24,2] cannot find symbol
+  symbol: class MapperScan
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[31,12] cannot find symbol
+  symbol:   class PerformanceInterceptor
+  location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[44,12] cannot find symbol
+  symbol:   class PaginationInterceptor
+  location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[52,12] cannot find symbol
+  symbol:   class MetaObjectHandler
+  location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[60,12] cannot find symbol
+  symbol:   class IKeyGenerator
+  location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[68,12] cannot find symbol
+  symbol:   class ISqlInjector
+  location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[INFO] 56 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for mc 0.0.1-SNAPSHOT:
+[INFO] 
+[INFO] mc ................................................. SUCCESS [  0.157 s]
+[INFO] mc-core ............................................ FAILURE [  1.188 s]
+[INFO] mc-mvc ............................................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.516 s
+[INFO] Finished at: 2026-10-16T14:51:16Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project mc-core: Compilation failure: Compilation failure: 
+[ERROR] error reading /root/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar; Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyException.java:[1,1] cannot access com.ttsh.mc.config.exception
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseResultUtil.java:[1,1] cannot access com.ttsh.mc.config.response
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/utils/Helper.java:[1,1] cannot access com.ttsh.mc.utils
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MyMetaObjectHandler.java:[1,1] cannot access com.ttsh.mc.config.mybatisplus
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/druid/DruidConfiguration.java:[1,1] cannot access com.ttsh.mc.config.druid
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/swagger2/Swagger2Config.java:[1,1] cannot access com.ttsh.mc.config.swagger2
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/cros/CorsConfig.java:[1,1] cannot access com.ttsh.mc.config.cros
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[11,8] cannot access java.lang
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[26,19] cannot find symbol
+[ERROR]   symbol:   class Integer
+[ERROR]   location: class com.ttsh.mc.config.response.ResponseCode
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[28,18] cannot find symbol
+[ERROR]   symbol:   class Integer
+[ERROR]   location: class com.ttsh.mc.config.response.ResponseCode
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/response/ResponseCode.java:[32,12] cannot find symbol
+[ERROR]   symbol:   class Integer
+[ERROR]   location: class com.ttsh.mc.config.response.ResponseCode
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[3,8] cannot access cn
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[3,10] cannot access cn.hutool
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[3,33] import requires canonical name for <any>.core.exceptions.ValidateException
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[6,35] cannot find symbol
+[ERROR]   symbol:   class ResponseResultUtil
+[ERROR]   location: package com.ttsh.mc.config.response
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[7,8] cannot access org
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[7,11] cannot access org.springframework
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[7,47] import requires canonical name for <any>.web.bind.annotation.ControllerAdvice
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[8,27] cannot access org.springframework.web
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[8,31] cannot access org.springframework.web.bind
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[8,47] import requires canonical name for <any>.annotation.ExceptionHandler
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[9,36] cannot access org.springframework.web.bind.annotation
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[11,11] cannot access org.slf4j
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[11,17] package org.slf4j does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[12,17] package org.slf4j does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[13,31] cannot access org.springframework.web.servlet
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[13,39] package org.springframework.web.servlet does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/exception/MyExceptionUtil.java:[23,2] cannot find symbol
+[ERROR]   symbol: class ControllerAdvice
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[3,11] cannot access com.baomidou
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[3,20] cannot access com.baomidou.mybatisplus
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[3,44] import requires canonical name for <any>.incrementer.H2KeyGenerator
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[4,32] cannot access com.baomidou.mybatisplus.incrementer
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[4,44] package com.baomidou.mybatisplus.incrementer does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[5,32] cannot access com.baomidou.mybatisplus.mapper
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[5,39] package com.baomidou.mybatisplus.mapper does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[6,39] package com.baomidou.mybatisplus.mapper does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[7,39] package com.baomidou.mybatisplus.mapper does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[8,11] cannot access org.mybatis
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[8,19] cannot access org.mybatis.spring
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[8,37] import requires canonical name for <any>.annotation.MapperScan
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[9,27] cannot access org.springframework.context
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[9,35] cannot access org.springframework.context.annotation
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[9,46] import requires canonical name for <any>.Bean
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[10,46] package org.springframework.context.annotation does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[12,32] cannot access com.baomidou.mybatisplus.plugins
+[ERROR]   ZipException opening "aspectjweaver-1.8.13.jar": Invalid CEN header (invalid zip64 extra data field size)
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[12,40] package com.baomidou.mybatisplus.plugins does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[13,40] package com.baomidou.mybatisplus.plugins does not exist
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[23,2] cannot find symbol
+[ERROR]   symbol: class Configuration
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[24,2] cannot find symbol
+[ERROR]   symbol: class MapperScan
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[31,12] cannot find symbol
+[ERROR]   symbol:   class PerformanceInterceptor
+[ERROR]   location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[44,12] cannot find symbol
+[ERROR]   symbol:   class PaginationInterceptor
+[ERROR]   location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[52,12] cannot find symbol
+[ERROR]   symbol:   class MetaObjectHandler
+[ERROR]   location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[60,12] cannot find symbol
+[ERROR]   symbol:   class IKeyGenerator
+[ERROR]   location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] /root/build/mc-core/src/main/java/com/ttsh/mc/config/mybatisplus/MybatisPlusConfig.java:[68,12] cannot find symbol
+[ERROR]   symbol:   class ISqlInjector
+[ERROR]   location: class com.ttsh.mc.config.mybatisplus.MybatisPlusConfig
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project mc-core: Compilation failure
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1161)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:168)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :mc-core

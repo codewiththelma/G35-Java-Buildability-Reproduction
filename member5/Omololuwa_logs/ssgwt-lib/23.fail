@@ -1,0 +1,363 @@
+Buildfile: /root/build/build.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /root/build/build.xml
+
+BUILD FAILED
+Target "jar" does not exist in the project "ssgwtlib". 
+
+Total time: 0 seconds
+Buildfile: /root/build/build.xml
+
+BUILD FAILED
+Target "war" does not exist in the project "ssgwtlib". 
+
+Total time: 0 seconds
+Buildfile: /root/build/build.xml
+
+BUILD FAILED
+Target "dist" does not exist in the project "ssgwtlib". 
+
+Total time: 0 seconds
+Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+Trying the default build file: build.xml
+Buildfile: /root/build/build.xml
+Detected Java version: 23 in: /opt/java
+Detected OS: Linux
+parsing buildfile /root/build/build.xml with URI = file:/root/build/build.xml
+Project base dir set to: /root/build
+parsing buildfile jar:file:/opt/apache-ant-1.10.15/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/opt/apache-ant-1.10.15/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Build sequence for target(s) `compile-project-to-jar' is [clean-project, compile-project-classes, compile-project-to-jar]
+Complete build sequence is [clean-project, compile-project-classes, compile-project-to-jar, libs, javac, clean, test, javac.tests, test.prod, test.dev, ]
+
+clean-project:
+     [echo] Deleting compiled class files (./classes)...
+     [echo] Deleting compiled jar file (ssgwtlib.jar)...
+   [delete] Could not find file /root/build/ssgwtlib.jar to delete.
+
+compile-project-classes:
+     [echo] Creating ./classes directory...
+    [mkdir] Created dir: /root/build/classes
+     [echo] Compiling class files into ./classes...
+    [javac] /root/build/build.xml:28: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] com/google/gwt/user/cellview/client/DataGrid.java added as com/google/gwt/user/cellview/client/DataGrid.class doesn't exist.
+    [javac] org/ssgwt/client/i18n/DateTimeFormat.java added as org/ssgwt/client/i18n/DateTimeFormat.class doesn't exist.
+    [javac] org/ssgwt/client/i18n/DateTimeFormatInfoAdapter.java added as org/ssgwt/client/i18n/DateTimeFormatInfoAdapter.class doesn't exist.
+    [javac] org/ssgwt/client/i18n/SSDate.java added as org/ssgwt/client/i18n/SSDate.class doesn't exist.
+    [javac] org/ssgwt/client/i18n/SSTimeZoneConstants.java added as org/ssgwt/client/i18n/SSTimeZoneConstants.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/i18n/SSTimeZoneConstants.properties skipped - don't know how to handle it
+    [javac] org/ssgwt/client/i18n/TimeZoneSettings.java added as org/ssgwt/client/i18n/TimeZoneSettings.class doesn't exist.
+    [javac] org/ssgwt/client/i18n/TimezoneLookupHelper.java added as org/ssgwt/client/i18n/TimezoneLookupHelper.class doesn't exist.
+    [javac] org/ssgwt/client/ui/AdvancedDateBox.java added as org/ssgwt/client/ui/AdvancedDateBox.class doesn't exist.
+    [javac] org/ssgwt/client/ui/AdvancedInputField.java added as org/ssgwt/client/ui/AdvancedInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/AdvancedPasswordBox.java added as org/ssgwt/client/ui/AdvancedPasswordBox.class doesn't exist.
+    [javac] org/ssgwt/client/ui/AdvancedTextbox.java added as org/ssgwt/client/ui/AdvancedTextbox.class doesn't exist.
+    [javac] org/ssgwt/client/ui/FocusImage.java added as org/ssgwt/client/ui/FocusImage.class doesn't exist.
+    [javac] org/ssgwt/client/ui/ImageButton.java added as org/ssgwt/client/ui/ImageButton.class doesn't exist.
+    [javac] org/ssgwt/client/ui/LoaderImageButton.java added as org/ssgwt/client/ui/LoaderImageButton.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/README.md skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/component/README.md skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/component/TipBar.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/component/TipBar.java added as org/ssgwt/client/ui/component/TipBar.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/component/TipBar.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/component/TipBarCallback.java added as org/ssgwt/client/ui/component/TipBarCallback.class doesn't exist.
+    [javac] org/ssgwt/client/ui/component/TipItem.java added as org/ssgwt/client/ui/component/TipItem.class doesn't exist.
+    [javac] org/ssgwt/client/ui/component/TipItemInterface.java added as org/ssgwt/client/ui/component/TipItemInterface.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/AbstractMultiSelectObject.java added as org/ssgwt/client/ui/datagrid/AbstractMultiSelectObject.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/DataGridResources.java added as org/ssgwt/client/ui/datagrid/DataGridResources.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/FilterSortCell.java added as org/ssgwt/client/ui/datagrid/FilterSortCell.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/FilterSortHeader.java added as org/ssgwt/client/ui/datagrid/FilterSortHeader.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/HeaderDetails.java added as org/ssgwt/client/ui/datagrid/HeaderDetails.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/HelpCell.java added as org/ssgwt/client/ui/datagrid/HelpCell.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/HelpHeader.java added as org/ssgwt/client/ui/datagrid/HelpHeader.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/README.md skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/SSDataGrid.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datagrid/SSDataGrid.java added as org/ssgwt/client/ui/datagrid/SSDataGrid.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/SSDataGrid.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/SSDataGridStyle.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datagrid/SSPager.java added as org/ssgwt/client/ui/datagrid/SSPager.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/SelectAllCell.java added as org/ssgwt/client/ui/datagrid/SelectAllCell.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/SelectAllHeader.java added as org/ssgwt/client/ui/datagrid/SelectAllHeader.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/SimplePager.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datagrid/column/ActionColumn/Event/ActionClickEvent.java added as org/ssgwt/client/ui/datagrid/column/ActionColumn/Event/ActionClickEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/ActionColumn/SSActionCell.java added as org/ssgwt/client/ui/datagrid/column/ActionColumn/SSActionCell.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/ActionColumn/SSActionColumn.java added as org/ssgwt/client/ui/datagrid/column/ActionColumn/SSActionColumn.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/AbstractImageColumnPopup.java added as org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/AbstractImageColumnPopup.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/ImageColumnInterface.java added as org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/ImageColumnInterface.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/SSHoverImageCell.java added as org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/SSHoverImageCell.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/SSHoverImageColumn.java added as org/ssgwt/client/ui/datagrid/column/ImageHoverColumn/SSHoverImageColumn.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/SSBooleanImageCell.java added as org/ssgwt/client/ui/datagrid/column/SSBooleanImageCell.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/SSBooleanImageColumn.java added as org/ssgwt/client/ui/datagrid/column/SSBooleanImageColumn.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/SSTextCell.java added as org/ssgwt/client/ui/datagrid/column/SSTextCell.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/SSTextColumn.java added as org/ssgwt/client/ui/datagrid/column/SSTextColumn.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/SortableColumnWithName.java added as org/ssgwt/client/ui/datagrid/column/SortableColumnWithName.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/column/StylableTextHeader.java added as org/ssgwt/client/ui/datagrid/column/StylableTextHeader.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/event/DataGridRangeChangeEvent.java added as org/ssgwt/client/ui/datagrid/event/DataGridRangeChangeEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/event/DataGridRowSelectionChangedEvent.java added as org/ssgwt/client/ui/datagrid/event/DataGridRowSelectionChangedEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/event/DataGridSortEvent.java added as org/ssgwt/client/ui/datagrid/event/DataGridSortEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/event/FilterChangeEvent.java added as org/ssgwt/client/ui/datagrid/event/FilterChangeEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/event/IDataGridEventHandler.java added as org/ssgwt/client/ui/datagrid/event/IDataGridEventHandler.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/event/ISelectAllEventHandler.java added as org/ssgwt/client/ui/datagrid/event/ISelectAllEventHandler.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/event/SelectAllEvent.java added as org/ssgwt/client/ui/datagrid/event/SelectAllEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datagrid/filter/AbstractHeaderFilter.java added as org/ssgwt/client/ui/datagrid/filter/AbstractHeaderFilter.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/DateFilter.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datagrid/filter/DateFilter.java added as org/ssgwt/client/ui/datagrid/filter/DateFilter.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/DateFilter.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/SelectBoxFilter.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datagrid/filter/SelectBoxFilter.java added as org/ssgwt/client/ui/datagrid/filter/SelectBoxFilter.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/SelectBoxFilter.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/TextFilter.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datagrid/filter/TextFilter.java added as org/ssgwt/client/ui/datagrid/filter/TextFilter.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/TextFilter.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/images/Hover_Delete_Applied_filter_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/images/Hover_Delete_Applied_filter_hover.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/filter/images/Hover_Delete_Applied_filter_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Header-Filter-Button_active.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Header-Filter-Button_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Header-Filter-Button_over.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Header-Filter-Button_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Header_Select_All_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Header_Select_All_over.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Header_Select_All_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Help_button_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Help_button_over.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/Help_button_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/loader_image.gif skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_End_disabled.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_End_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_End_over.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_End_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_disabled.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_over.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_left_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_End_disabled.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_End_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_End_over.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_End_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_disabled.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_down.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_over.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/pagination_right_up.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/sortAscending.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datagrid/images/sortDescending.png skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datecomponents/DateTimeComponent.java added as org/ssgwt/client/ui/datecomponents/DateTimeComponent.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datecomponents/DateTimeComponent.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/datecomponents/README.md skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datecomponents/StartEndDateVo.java added as org/ssgwt/client/ui/datecomponents/StartEndDateVo.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/CalendarModel.java added as org/ssgwt/client/ui/datepicker/CalendarModel.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/CalendarUtil.java added as org/ssgwt/client/ui/datepicker/CalendarUtil.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/CalendarView.java added as org/ssgwt/client/ui/datepicker/CalendarView.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/CellGridImpl.java added as org/ssgwt/client/ui/datepicker/CellGridImpl.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/ComboBoxMonthSelector.java added as org/ssgwt/client/ui/datepicker/ComboBoxMonthSelector.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/DateBox.java added as org/ssgwt/client/ui/datepicker/DateBox.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/DateChangeEvent.java added as org/ssgwt/client/ui/datepicker/DateChangeEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/DatePicker.java added as org/ssgwt/client/ui/datepicker/DatePicker.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/DatePickerComponent.java added as org/ssgwt/client/ui/datepicker/DatePickerComponent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/DefaultCalendarView.java added as org/ssgwt/client/ui/datepicker/DefaultCalendarView.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/DefaultMonthSelector.java added as org/ssgwt/client/ui/datepicker/DefaultMonthSelector.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/MonthDateBox.java added as org/ssgwt/client/ui/datepicker/MonthDateBox.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datepicker/MonthDatePicker.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datepicker/MonthSelector.java added as org/ssgwt/client/ui/datepicker/MonthSelector.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/datepicker/README.md skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/datepicker/RangedCalendarView.java added as org/ssgwt/client/ui/datepicker/RangedCalendarView.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/SSDateBox.java added as org/ssgwt/client/ui/datepicker/SSDateBox.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/SSDatePicker.java added as org/ssgwt/client/ui/datepicker/SSDatePicker.class doesn't exist.
+    [javac] org/ssgwt/client/ui/datepicker/SSMonthPicker.java added as org/ssgwt/client/ui/datepicker/SSMonthPicker.class doesn't exist.
+    [javac] org/ssgwt/client/ui/event/FocusImageClickEvent.java added as org/ssgwt/client/ui/event/FocusImageClickEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/event/IFocusImageClickEventHandler.java added as org/ssgwt/client/ui/event/IFocusImageClickEventHandler.class doesn't exist.
+    [javac] org/ssgwt/client/ui/event/LoaderButtonClickEvent.java added as org/ssgwt/client/ui/event/LoaderButtonClickEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/fileInput/FileSelector.java added as org/ssgwt/client/ui/fileInput/FileSelector.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/fileInput/README.md skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/fileInput/SSFileSelector.java added as org/ssgwt/client/ui/fileInput/SSFileSelector.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/CheckBoxInputField.java added as org/ssgwt/client/ui/form/CheckBoxInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/ComplexInput.java added as org/ssgwt/client/ui/form/ComplexInput.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/ComplexInputForm.java added as org/ssgwt/client/ui/form/ComplexInputForm.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/DateInputField.java added as org/ssgwt/client/ui/form/DateInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/DropDownInputField.java added as org/ssgwt/client/ui/form/DropDownInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/DurationSpinnerInputField.java added as org/ssgwt/client/ui/form/DurationSpinnerInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/DynamicForm.java added as org/ssgwt/client/ui/form/DynamicForm.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/HourSpinnerInputField.java added as org/ssgwt/client/ui/form/HourSpinnerInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/InfoInputField.java added as org/ssgwt/client/ui/form/InfoInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/InputField.java added as org/ssgwt/client/ui/form/InputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/InputFieldCreator.java added as org/ssgwt/client/ui/form/InputFieldCreator.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/LabelInputField.java added as org/ssgwt/client/ui/form/LabelInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/LineInputField.java added as org/ssgwt/client/ui/form/LineInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/MonthDateInputField.java added as org/ssgwt/client/ui/form/MonthDateInputField.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/form/README.md skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/form/RadioBoxField.java added as org/ssgwt/client/ui/form/RadioBoxField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/ShiftInputField.java added as org/ssgwt/client/ui/form/ShiftInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/StaticImageInputField.java added as org/ssgwt/client/ui/form/StaticImageInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/TextAreaInputField.java added as org/ssgwt/client/ui/form/TextAreaInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/TextInputField.java added as org/ssgwt/client/ui/form/TextInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/ValueSpinnerInputField.java added as org/ssgwt/client/ui/form/ValueSpinnerInputField.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/event/ComplexInputFormActionEvent.java added as org/ssgwt/client/ui/form/event/ComplexInputFormActionEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/event/ComplexInputFormAddEvent.java added as org/ssgwt/client/ui/form/event/ComplexInputFormAddEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/event/ComplexInputFormCancelEvent.java added as org/ssgwt/client/ui/form/event/ComplexInputFormCancelEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/event/ComplexInputFormConfirmationEvent.java added as org/ssgwt/client/ui/form/event/ComplexInputFormConfirmationEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/event/ComplexInputFormFieldAddEvent.java added as org/ssgwt/client/ui/form/event/ComplexInputFormFieldAddEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/event/ComplexInputFormRemoveEvent.java added as org/ssgwt/client/ui/form/event/ComplexInputFormRemoveEvent.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/form/filterdropdown/FilterDropdown.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/form/filterdropdown/FilterDropdown.java added as org/ssgwt/client/ui/form/filterdropdown/FilterDropdown.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/form/filterdropdown/FilterDropdown.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/form/filterdropdown/FilterDropdownListBox.java added as org/ssgwt/client/ui/form/filterdropdown/FilterDropdownListBox.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/form/filterdropdown/recorddisplays/FilterDropdownRecord.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/form/filterdropdown/recorddisplays/FilterDropdownRecord.java added as org/ssgwt/client/ui/form/filterdropdown/recorddisplays/FilterDropdownRecord.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/form/filterdropdown/recorddisplays/FilterDropdownRecord.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/form/filterdropdown/recorddisplays/FilterDropdownRecordWidget.java added as org/ssgwt/client/ui/form/filterdropdown/recorddisplays/FilterDropdownRecordWidget.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/AbstractEvent.java added as org/ssgwt/client/ui/form/spinner/AbstractEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/ChangeEvent.java added as org/ssgwt/client/ui/form/spinner/ChangeEvent.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/ChangeHandler.java added as org/ssgwt/client/ui/form/spinner/ChangeHandler.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/DurationSpinner.java added as org/ssgwt/client/ui/form/spinner/DurationSpinner.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/EventHandler.java added as org/ssgwt/client/ui/form/spinner/EventHandler.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/FiresChangeEvents.java added as org/ssgwt/client/ui/form/spinner/FiresChangeEvents.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/HourSpinner.java added as org/ssgwt/client/ui/form/spinner/HourSpinner.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/Spinner.java added as org/ssgwt/client/ui/form/spinner/Spinner.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/SpinnerListener.java added as org/ssgwt/client/ui/form/spinner/SpinnerListener.class doesn't exist.
+    [javac] org/ssgwt/client/ui/form/spinner/TimePicker.java added as org/ssgwt/client/ui/form/spinner/TimePicker.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/ValueSpinner.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/form/spinner/ValueSpinner.java added as org/ssgwt/client/ui/form/spinner/ValueSpinner.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowDown.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowDownDisabled.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowDownHover.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowDownPressed.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowUp.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowUpDisabled.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowUpHover.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/form/spinner/arrowUpPressed.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/menu/LeftMenuBar.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/menu/LeftMenuBar.java added as org/ssgwt/client/ui/menu/LeftMenuBar.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/menu/LeftMenuBar.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/menu/LeftMenuCommand.java added as org/ssgwt/client/ui/menu/LeftMenuCommand.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/menu/LeftMenuItem.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/menu/LeftMenuItem.java added as org/ssgwt/client/ui/menu/LeftMenuItem.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/menu/LeftMenuItem.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/menu/MenuItemInterface.java added as org/ssgwt/client/ui/menu/MenuItemInterface.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/menu/README.md skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/menu/TopMenuBar.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/menu/TopMenuBar.java added as org/ssgwt/client/ui/menu/TopMenuBar.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/menu/TopMenuBar.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/menu/event/ILeftMenuItemSelectEventHandler.java added as org/ssgwt/client/ui/menu/event/ILeftMenuItemSelectEventHandler.class doesn't exist.
+    [javac] org/ssgwt/client/ui/menu/event/LeftMenuItemSelectEvent.java added as org/ssgwt/client/ui/menu/event/LeftMenuItemSelectEvent.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/popup/GenericPopup.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/popup/GenericPopup.java added as org/ssgwt/client/ui/popup/GenericPopup.class doesn't exist.
+    [javac] org/ssgwt/client/ui/popup/IGenericPopupContentWidget.java added as org/ssgwt/client/ui/popup/IGenericPopupContentWidget.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/popup/README.md skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/popup/images/loaderImage.gif skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/radioBox/BooleanLabel.java added as org/ssgwt/client/ui/radioBox/BooleanLabel.class doesn't exist.
+    [javac] org/ssgwt/client/ui/radioBox/DateLabel.java added as org/ssgwt/client/ui/radioBox/DateLabel.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/radioBox/README.md skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/radioBox/RadioBoxComponent.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/radioBox/RadioBoxComponent.java added as org/ssgwt/client/ui/radioBox/RadioBoxComponent.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/radioBox/RadioBoxComponent.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/README.md skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/SearchBox.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/searchbox/SearchBox.java added as org/ssgwt/client/ui/searchbox/SearchBox.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/SearchBox.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/searchbox/SearchBoxDropDown.java added as org/ssgwt/client/ui/searchbox/SearchBoxDropDown.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxClientRecord.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxClientRecord.java added as org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxClientRecord.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxClientRecord.ui.xml skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxRecordWidget.java added as org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxRecordWidget.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxUserRecord.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxUserRecord.java added as org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxUserRecord.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/recorddisplays/SearchBoxUserRecord.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/recorddisplays/images/Default_client_icon.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/recorddisplays/images/Default_user_icon.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/searchbox/recorddisplays/images/deleteButton.png skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/tree/NodeObject.java added as org/ssgwt/client/ui/tree/NodeObject.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/README.md skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/tree/Tree.java added as org/ssgwt/client/ui/tree/Tree.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/TreeNode.css skipped - don't know how to handle it
+    [javac] org/ssgwt/client/ui/tree/TreeNode.java added as org/ssgwt/client/ui/tree/TreeNode.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/TreeNode.ui.xml skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/Default_user_icon.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/No-access-Icon.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/disabled.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/disabled_Checked.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/expand-icon.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/grey-branch.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/minimise-Icon.png skipped - don't know how to handle it
+    [javac] /root/build/src/org/ssgwt/client/ui/tree/images/orange-branch.png skipped - don't know how to handle it
+    [javac] org/ssgwt/client/validation/FormField.java added as org/ssgwt/client/validation/FormField.class doesn't exist.
+    [javac] org/ssgwt/client/validation/FormFieldConstants.java added as org/ssgwt/client/validation/FormFieldConstants.class doesn't exist.
+    [javac] org/ssgwt/client/validation/FormValidator.java added as org/ssgwt/client/validation/FormValidator.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/client/validation/README.md skipped - don't know how to handle it
+    [javac] org/ssgwt/client/validation/ValidatorChain.java added as org/ssgwt/client/validation/ValidatorChain.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/AbstractValidator.java added as org/ssgwt/client/validation/validators/AbstractValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/AgeValidator.java added as org/ssgwt/client/validation/validators/AgeValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/DateValidator.java added as org/ssgwt/client/validation/validators/DateValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/EmailValidator.java added as org/ssgwt/client/validation/validators/EmailValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/RangeValidator.java added as org/ssgwt/client/validation/validators/RangeValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/StringRegexValidator.java added as org/ssgwt/client/validation/validators/StringRegexValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/StringValidator.java added as org/ssgwt/client/validation/validators/StringValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/UsernameValidator.java added as org/ssgwt/client/validation/validators/UsernameValidator.class doesn't exist.
+    [javac] org/ssgwt/client/validation/validators/ValidatorInterface.java added as org/ssgwt/client/validation/validators/ValidatorInterface.class doesn't exist.
+    [javac] org/ssgwt/share/i18n/DateTimeFormat.java added as org/ssgwt/share/i18n/DateTimeFormat.class doesn't exist.
+    [javac] org/ssgwt/share/i18n/impl/DateRecord.java added as org/ssgwt/share/i18n/impl/DateRecord.class doesn't exist.
+    [javac] /root/build/src/org/ssgwt/ssGwt.gwt.xml skipped - don't know how to handle it
+    [javac] Compiling 153 source files to /root/build/classes
+    [javac] Using modern compiler
+
+BUILD FAILED
+/root/build/build.xml:28: /opt/gwt does not exist.
+	at org.apache.tools.ant.types.AbstractFileSet.getDirectoryScanner(AbstractFileSet.java:512)
+	at org.apache.tools.ant.types.AbstractFileSet.getDirectoryScanner(AbstractFileSet.java:489)
+	at org.apache.tools.ant.types.FileSet.iterator(FileSet.java:72)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:74)
+	at org.apache.tools.ant.types.ResourceCollection.stream(ResourceCollection.java:50)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:289)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at org.apache.tools.ant.types.resources.Union.getAllResources(Union.java:139)
+	at org.apache.tools.ant.types.resources.Union.getCollection(Union.java:107)
+	at org.apache.tools.ant.types.resources.BaseResourceCollectionContainer.cacheCollection(BaseResourceCollectionContainer.java:258)
+	at org.apache.tools.ant.types.resources.BaseResourceCollectionContainer.iterator(BaseResourceCollectionContainer.java:143)
+	at org.apache.tools.ant.types.Path.iterator(Path.java:700)
+	at org.apache.tools.ant.types.Path.iterator(Path.java:693)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:74)
+	at org.apache.tools.ant.types.ResourceCollection.stream(ResourceCollection.java:50)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:289)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:636)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:656)
+	at org.apache.tools.ant.types.resources.Union.list(Union.java:87)
+	at org.apache.tools.ant.types.Path.list(Path.java:382)
+	at org.apache.tools.ant.types.Path.addExisting(Path.java:337)
+	at org.apache.tools.ant.types.Path.addExisting(Path.java:322)
+	at org.apache.tools.ant.types.Path.concatSpecialPath(Path.java:585)
+	at org.apache.tools.ant.types.Path.concatSystemClasspath(Path.java:536)
+	at org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter.getCompileClasspath(DefaultCompilerAdapter.java:191)
+	at org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter.setupJavacCommandlineSwitches(DefaultCompilerAdapter.java:260)
+	at org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter.setupModernJavacCommandlineSwitches(DefaultCompilerAdapter.java:398)
+	at org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter.setupModernJavacCommand(DefaultCompilerAdapter.java:458)
+	at org.apache.tools.ant.taskdefs.compilers.Javac13.execute(Javac13.java:50)
+	at org.apache.tools.ant.taskdefs.Javac.compile(Javac.java:1352)
+	at org.apache.tools.ant.taskdefs.Javac.execute(Javac.java:1092)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:299)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:99)
+	at org.apache.tools.ant.Task.perform(Task.java:350)
+	at org.apache.tools.ant.Target.execute(Target.java:449)
+	at org.apache.tools.ant.Target.performTasks(Target.java:470)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1401)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1374)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1264)
+	at org.apache.tools.ant.Main.runBuild(Main.java:818)
+	at org.apache.tools.ant.Main.startAnt(Main.java:223)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:284)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:101)
+
+Total time: 0 seconds
