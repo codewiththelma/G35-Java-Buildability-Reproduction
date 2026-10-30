@@ -1,0 +1,6 @@
+name,commit,tool,wrapper,java11,java17,java21,java23
+AlmostReliable/lootjs,d774ec2d319aca1576a3c925dbfaf75fb270c9dd,Gradle,gradlew,1,1,1,1
+Argent-Matter/gcyr,2095a43abc41a34074350dba50fb8b381d2dd0a7,Gradle,gradlew,1,1,1,1
+AutismSuperman/ArmorAuth,30f8f3b504faff15b8e25ba59218972037e7120e,Maven,,1,1,1,1
+BBS-Engine/bbs,b3efac563acc9543fb6fbe9660258b1408af7950,Gradle,,1,1,0,0
+Bamdoliro/marubase,f45831ee4e138b9680d16520af876836a40a47ef,Gradle,gradlew,1,1,1,1
