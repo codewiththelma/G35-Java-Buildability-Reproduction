@@ -20,11 +20,33 @@ We wanted to see how different Java projects build across different JDK versions
 
 ## Our Results
 
-We successfully reproduced the experiment from the original paper.
+We reproduced the original study's build outcomes for 20 Java projects across JDK 11, 17, 21 and 23, giving 80 build attempts in total.
 
-Our group's results matched the original study, showing how some Java projects could build successfully on one JDK version but fail on another.
+### Build Success Rate Comparison
 
-We also looked into the build failures, saved the logs and documented our findings as evidence of our reproduction.
+| JDK Version | Original Study (PASS) | G35 (PASS) | G35 Build Success Rate |
+|---|---:|---:|---:|
+| JDK 11 | 11/20 | 11/20 | 55% |
+| JDK 17 | 9/20 | 9/20 | 45% |
+| JDK 21 | 9/20 | 9/20 | 45% |
+| JDK 23 | 5/20 | 5/20 | 25% |
+| **Total** | **34/80** | **34/80** | **42.5%** |
+
+Our results matched the original study for all 80 individual project-JDK build outcomes (80/80 agreement). These rates describe our selected 20-project sample, not the full original dataset.
+
+### Results Evidence
+
+The individual comparison CSV files contain the recorded outcomes:
+
+- [Member 1 – Thelma](member1_thelma/Thelma_comparison.csv)
+- [Member 2 – Megan](member-2_Megan/Megan_comparision.csv)
+- [Member 3 – Build results](member-3-evidence/results.csv)
+- [Member 4 – Denzel](member-4/Denzel_comparison.csv)
+- [Member 5 – Omololuwa](member5/Omololuwa_comparison.csv)
+
+For Member 3's raw results CSV, `0` indicates PASS and `1` indicates FAIL.
+
+We also investigated build failures and preserved logs as supporting evidence.
 
 ## Tools Used
 
