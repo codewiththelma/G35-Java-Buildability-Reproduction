@@ -1,0 +1,38 @@
+name: Event B - JDK 25 Clean CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out G35 repository
+        uses: actions/checkout@v4
+
+      - name: Download equationexploit at original commit
+        run: |
+          git clone https://github.com/1135/equationexploit.git project
+          git -C project checkout f5d6bbd1742d335cd94ad037b49765e0b820fcd3
+
+      - name: Build JDK 25 Docker image
+        run: docker build -t g35-event-b:jdk25 -f event-b/Dockerfile .
+
+      - name: Build equationexploit
+        run: |
+          mkdir -p event-b/ci-logs
+          docker run --rm \
+            --mount type=bind,src="$PWD/project",dst=/project,readonly \
+            --entrypoint bash \
+            g35-event-b:jdk25 \
+            -c 'cp -a /project/. /workspace/ && timeout -k 1m 1h mvn clean package -DskipTests --errors --batch-mode' \
+            > event-b/ci-logs/equationexploit-jdk25.log 2>&1
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: event-b-jdk25-log
+          path: event-b/ci-logs/
