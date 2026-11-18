@@ -1,0 +1,1461 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/opt/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/opt/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< net.pandadev:Nextron >------------------------
+[INFO] Building Nextron 1.6.3
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.pom (5.3 kB at 7.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/35/maven-plugins-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/35/maven-plugins-35.pom (9.9 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/35/maven-parent-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/35/maven-parent-35.pom (45 kB at 241 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/25/apache-25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/25/apache-25.pom (21 kB at 226 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar (36 kB at 175 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom (8.2 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/39/maven-plugins-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/39/maven-plugins-39.pom (8.1 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/39/maven-parent-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/39/maven-parent-39.pom (48 kB at 564 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/29/apache-29.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/29/apache-29.pom (21 kB at 209 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar (31 kB at 276 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.pom (9.7 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/41/maven-plugins-41.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/41/maven-plugins-41.pom (7.4 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/41/maven-parent-41.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/41/maven-parent-41.pom (50 kB at 489 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom (24 kB at 267 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.jar (76 kB at 427 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom (5.3 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.2.5/surefire-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.2.5/surefire-3.2.5.pom (22 kB at 166 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom (5.6 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar (45 kB at 365 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.pom (6.8 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/37/maven-plugins-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/37/maven-plugins-37.pom (9.9 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom (46 kB at 524 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom (20 kB at 226 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.jar (27 kB at 346 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.pom (12 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/42/maven-plugins-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/42/maven-plugins-42.pom (7.7 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/42/maven-parent-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/42/maven-parent-42.pom (50 kB at 490 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/32/apache-32.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/32/apache-32.pom (24 kB at 154 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom (5.6 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.jar (150 kB at 616 kB/s)
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.4 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/spigot-api-1.21.4-R0.1-20250325.160956-56.pom
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/spigot-api-1.21.4-R0.1-20250325.160956-56.pom (11 kB at 12 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.pom (9.3 kB at 20 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/33.3.1-jre/guava-parent-33.3.1-jre.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/33.3.1-jre/guava-parent-33.3.1-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/33.3.1-jre/guava-parent-33.3.1-jre.pom (20 kB at 64 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom (3.3 kB at 7.9 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (10 kB at 36 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 22 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (2.3 kB at 7.4 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 14 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 16 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.pom (2.1 kB at 6.5 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom (4.3 kB at 15 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom (13 kB at 47 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom (5.1 kB at 18 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom (12 kB at 47 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom (26 kB at 87 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom (4.3 kB at 13 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom (13 kB at 48 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/joml/joml/1.10.8/joml-1.10.8.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/joml/joml/1.10.8/joml-1.10.8.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/joml/joml/1.10.8/joml-1.10.8.pom (1.5 kB at 4.9 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.pom (979 B at 3.1 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.20-R0.2/bungeecord-parent-1.20-R0.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-parent/1.20-R0.2/bungeecord-parent-1.20-R0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-parent/1.20-R0.2/bungeecord-parent-1.20-R0.2.pom (15 kB at 51 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/netty/netty-bom/4.1.106.Final/netty-bom-4.1.106.Final.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/io/netty/netty-bom/4.1.106.Final/netty-bom-4.1.106.Final.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/io/netty/netty-bom/4.1.106.Final/netty-bom-4.1.106.Final.pom (14 kB at 49 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom (9.4 kB at 35 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom (13 kB at 41 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.pom (13 kB at 45 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/32.1.2-jre/guava-parent-32.1.2-jre.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/32.1.2-jre/guava-parent-32.1.2-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/32.1.2-jre/guava-parent-32.1.2-jre.pom (20 kB at 54 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (2.4 kB at 9.2 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.pom (2.1 kB at 7.4 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.pom (2.2 kB at 8.3 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.18.0/error_prone_parent-2.18.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.18.0/error_prone_parent-2.18.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.18.0/error_prone_parent-2.18.0.pom (11 kB at 39 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.pom (2.9 kB at 9.5 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/2.2/snakeyaml-2.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/2.2/snakeyaml-2.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/2.2/snakeyaml-2.2.pom (21 kB at 67 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/mojang/authlib/1.5.25/authlib-1.5.25.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/mojang/authlib/1.5.25/authlib-1.5.25.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.pom
+[INFO] Downloaded from minecraft-repo: https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.pom (2.0 kB at 2.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom (965 B at 3.2 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.10/commons-codec-1.10.pom (12 kB at 39 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/35/commons-parent-35.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/35/commons-parent-35.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/35/commons-parent-35.pom (58 kB at 182 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/15/apache-15.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/15/apache-15.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/15/apache-15.pom (15 kB at 44 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/2.4/commons-io-2.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.4/commons-io-2.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.4/commons-io-2.4.pom (10 kB at 35 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/25/commons-parent-25.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/25/commons-parent-25.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/25/commons-parent-25.pom (48 kB at 166 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/9/apache-9.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/9/apache-9.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/9/apache-9.pom (15 kB at 51 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (1.4 kB at 6.2 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (3.5 kB at 12 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom (23 kB at 88 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/41/commons-parent-41.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/41/commons-parent-41.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/41/commons-parent-41.pom (65 kB at 212 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/18/apache-18.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/18/apache-18.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/18/apache-18.pom (16 kB at 56 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom (8.7 kB at 33 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom (55 kB at 195 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/logging-parent/1/logging-parent-1.pom (3.2 kB at 13 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom (19 kB at 75 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/21.0/guava-21.0.pom (7.0 kB at 27 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (9.7 kB at 39 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/maven-metadata.xml (770 B at 5.0 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.pom
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.pom
+[INFO] Downloaded from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.pom (1.5 kB at 11 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml (603 B at 4.0 kB/s)
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/anvilgui-parent-1.10.4-20241221.041138-2.pom
+[INFO] Downloaded from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui-parent/1.10.4-SNAPSHOT/anvilgui-parent-1.10.4-20241221.041138-2.pom (4.9 kB at 36 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/triumphteam/triumph-gui/3.1.11/triumph-gui-3.1.11.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/triumphteam/triumph-gui/3.1.11/triumph-gui-3.1.11.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/dev/triumphteam/triumph-gui/3.1.11/triumph-gui-3.1.11.pom (2.4 kB at 5.4 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.pom (3.4 kB at 12 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-bom/4.17.0/adventure-bom-4.17.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-bom/4.17.0/adventure-bom-4.17.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-bom/4.17.0/adventure-bom-4.17.0.pom (4.8 kB at 20 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.pom (3.2 kB at 11 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom (2.1 kB at 7.2 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 4.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom (2.1 kB at 7.9 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom (1.3 kB at 5.1 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.pom (2.9 kB at 12 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.pom (3.2 kB at 11 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.pom (3.0 kB at 11 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/option/1.0.0/option-1.0.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/option/1.0.0/option-1.0.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/option/1.0.0/option-1.0.0.pom (2.0 kB at 8.6 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.pom (2.3 kB at 8.9 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/auto/service/auto-service-aggregator/1.1.1/auto-service-aggregator-1.1.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/auto/service/auto-service-aggregator/1.1.1/auto-service-aggregator-1.1.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/auto/service/auto-service-aggregator/1.1.1/auto-service-aggregator-1.1.1.pom (4.3 kB at 15 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.pom (4.0 kB at 14 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.pom (2.3 kB at 8.5 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom (3.4 kB at 13 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom (4.6 kB at 7.8 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom (3.2 kB at 14 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom (1.3 kB at 5.6 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.pom (2.9 kB at 12 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom (2.9 kB at 9.3 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom (3.0 kB at 12 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom (3.2 kB at 9.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom (3.2 kB at 12 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.pom (2.5 kB at 9.1 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.pom (2.9 kB at 11 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.pom
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.pom
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.pom
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.pom (978 B at 4.4 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.pom
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.pom
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.pom
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.pom (1.4 kB at 7.0 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.pom
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.pom
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.pom
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.pom (968 B at 4.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/26.0.1/annotations-26.0.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/26.0.1/annotations-26.0.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/26.0.1/annotations-26.0.1.pom (1.7 kB at 5.5 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.pom
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.pom
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.pom
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.pom (978 B at 4.3 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.pom
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.pom
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.pom
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.pom (979 B at 4.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom
+[INFO] Downloaded from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.pom (1.4 kB at 3.1 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom (1.4 kB at 5.5 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/3.0.1/bstats-bukkit-3.0.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/3.0.1/bstats-bukkit-3.0.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/3.0.1/bstats-bukkit-3.0.1.pom (1.7 kB at 5.8 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/3.0.1/bstats-base-3.0.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/3.0.1/bstats-base-3.0.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/3.0.1/bstats-base-3.0.1.pom (1.5 kB at 5.0 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom (4.0 kB at 15 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom (2.3 kB at 9.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom (2.9 kB at 5.0 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom (2.5 kB at 8.0 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom (2.9 kB at 9.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.36/lombok-1.18.36.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.36/lombok-1.18.36.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.36/lombok-1.18.36.pom (1.5 kB at 5.5 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.pom (4.3 kB at 17 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j/3.0.0-beta2/log4j-3.0.0-beta2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j/3.0.0-beta2/log4j-3.0.0-beta2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j/3.0.0-beta2/log4j-3.0.0-beta2.pom (31 kB at 120 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-bom/3.0.0-beta2/log4j-bom-3.0.0-beta2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-bom/3.0.0-beta2/log4j-bom-3.0.0-beta2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-bom/3.0.0-beta2/log4j-bom-3.0.0-beta2.pom (13 kB at 48 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom (54 kB at 207 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/groovy/groovy-bom/4.0.18/groovy-bom-4.0.18.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/groovy/groovy-bom/4.0.18/groovy-bom-4.0.18.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/groovy/groovy-bom/4.0.18/groovy-bom-4.0.18.pom (27 kB at 79 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.16.1/jackson-bom-2.16.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/fasterxml/jackson/jackson-bom/2.16.1/jackson-bom-2.16.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/fasterxml/jackson/jackson-bom/2.16.1/jackson-bom-2.16.1.pom (18 kB at 57 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/2.16/jackson-parent-2.16.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/fasterxml/jackson/jackson-parent/2.16/jackson-parent-2.16.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/fasterxml/jackson/jackson-parent/2.16/jackson-parent-2.16.pom (6.5 kB at 23 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/fasterxml/oss-parent/56/oss-parent-56.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/fasterxml/oss-parent/56/oss-parent-56.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/fasterxml/oss-parent/56/oss-parent-56.pom (24 kB at 74 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom (18 kB at 49 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom (26 kB at 104 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/mockito/mockito-bom/5.10.0/mockito-bom-5.10.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/mockito/mockito-bom/5.10.0/mockito-bom-5.10.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/mockito/mockito-bom/5.10.0/mockito-bom-5.10.0.pom (3.1 kB at 10 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom (14 kB at 45 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-api/3.0.0-beta2/log4j-api-3.0.0-beta2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-api/3.0.0-beta2/log4j-api-3.0.0-beta2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-api/3.0.0-beta2/log4j-api-3.0.0-beta2.pom (2.2 kB at 8.1 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.pom (2.4 kB at 8.9 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/2.18.0/commons-io-2.18.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.18.0/commons-io-2.18.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.18.0/commons-io-2.18.0.pom (20 kB at 67 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/78/commons-parent-78.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/78/commons-parent-78.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/78/commons-parent-78.pom (78 kB at 280 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/33/apache-33.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/33/apache-33.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/33/apache-33.pom (24 kB at 77 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.11.2/junit-bom-5.11.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/junit-bom/5.11.2/junit-bom-5.11.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/junit-bom/5.11.2/junit-bom-5.11.2.pom (5.6 kB at 23 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/spigot-api-1.21.4-R0.1-20250325.160956-56.jar
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.21.4-R0.1-SNAPSHOT/spigot-api-1.21.4-R0.1-20250325.160956-56.jar (1.6 MB at 1.8 MB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/joml/joml/1.10.8/joml-1.10.8.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/triumphteam/triumph-gui/3.1.11/triumph-gui-3.1.11.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/option/1.0.0/option-1.0.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/3.0.1/bstats-bukkit-3.0.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/3.0.1/bstats-base-3.0.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar (3.1 MB at 4.1 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar (4.7 kB at 18 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar (12 kB at 27 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/joml/joml/1.10.8/joml-1.10.8.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (2.2 kB at 3.5 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar (19 kB at 30 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar (232 kB at 309 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar (298 kB at 392 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar (334 kB at 336 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/joml/joml/1.10.8/joml-1.10.8.jar (779 kB at 780 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar (156 kB at 152 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar (32 kB at 30 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/triumphteam/triumph-gui/3.1.11/triumph-gui-3.1.11.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar (229 kB at 166 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar (480 kB at 346 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar (397 kB at 276 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/dev/triumphteam/triumph-gui/3.1.11/triumph-gui-3.1.11.jar (72 kB at 48 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar (11 kB at 6.7 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar (23 kB at 14 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.10/commons-codec-1.10.jar (284 kB at 167 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/option/1.0.0/option-1.0.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar (13 kB at 7.6 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar (29 kB at 16 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar (14 kB at 7.1 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar (55 kB at 28 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/option/1.0.0/option-1.0.0.jar (13 kB at 6.8 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar (3.2 kB at 1.5 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar (133 kB at 63 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar (9.6 kB at 4.2 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar (4.9 kB at 2.1 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar (93 kB at 40 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar (2.5 kB at 1.1 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar (43 kB at 18 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar (20 kB at 8.0 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/3.0.1/bstats-bukkit-3.0.1.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/3.0.1/bstats-base-3.0.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/3.0.1/bstats-bukkit-3.0.1.jar (4.1 kB at 1.4 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar (29 kB at 9.8 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/3.0.1/bstats-base-3.0.1.jar (22 kB at 6.9 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.jar (1.5 MB at 433 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.jar (206 kB at 61 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar (539 kB at 146 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar (2.1 MB at 554 kB/s)
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+[INFO] Downloaded from minecraft-repo: https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar (66 kB at 128 kB/s)
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.jar
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.jar
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.jar
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.jar
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.jar
+[INFO] Downloading from minecraft-repo: https://libraries.minecraft.net/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.jar
+[INFO] Downloaded from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/net/wesjd/anvilgui/1.10.4-SNAPSHOT/anvilgui-1.10.4-20241221.041455-2.jar (163 kB at 415 kB/s)
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.jar
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.jar
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.jar
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.jar
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.jar
+[INFO] Downloading from codemc-snapshots: https://repo.codemc.io/repository/maven-snapshots/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.jar
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-bukkit/3.9.6/litecommands-bukkit-3.9.6.jar (52 kB at 239 kB/s)
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.jar
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.jar
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.jar
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.jar
+[INFO] Downloading from panda-repo: https://repo.panda-lang.org/releases/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-framework/3.9.6/litecommands-framework-3.9.6.jar (28 kB at 131 kB/s)
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-programmatic/3.9.6/litecommands-programmatic-3.9.6.jar (8.2 kB at 23 kB/s)
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-annotations/3.9.6/litecommands-annotations-3.9.6.jar (89 kB at 242 kB/s)
+[INFO] Downloaded from panda-repo: https://repo.panda-lang.org/releases/dev/rollczi/litecommands-core/3.9.6/litecommands-core-3.9.6.jar (492 kB at 966 kB/s)
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar
+[INFO] Downloaded from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar (933 kB at 1.5 MB/s)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Nextron ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom (5.8 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom (5.1 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 487 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 236 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom (14 kB at 176 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom (68 kB at 871 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar (153 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar (215 kB at 1.9 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Nextron ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom (2.7 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom (23 kB at 262 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom (8.8 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom (25 kB at 254 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom (6.0 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/39/maven-shared-components-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/39/maven-shared-components-39.pom (3.2 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 7.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom (2.7 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom (14 kB at 201 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom (3.2 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom (8.4 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.pom (8.0 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom (20 kB at 290 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom (79 kB at 911 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom (5.1 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.pom (31 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom (5.1 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar (85 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar (269 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar (2.5 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (8.5 kB at 35 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar (55 kB at 228 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar (41 kB at 171 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar (327 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar (587 kB at 1.1 MB/s)
+[INFO] Copying 7 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ Nextron ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom (5.9 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom (4.7 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom (6.4 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 429 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 170 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom (815 B at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom (4.2 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom (17 kB at 266 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.pom (4.3 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.2.0/plexus-languages-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.2.0/plexus-languages-1.2.0.pom (3.2 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/15/plexus-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/15/plexus-15.pom (28 kB at 164 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom (5.6 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom (2.4 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom (11 kB at 185 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom (17 kB at 253 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.pom (1.4 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.14.2/plexus-compiler-2.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.14.2/plexus-compiler-2.14.2.pom (8.1 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/16/plexus-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/16/plexus-16.pom (28 kB at 268 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom (5.6 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom (8.7 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom (27 kB at 308 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.pom (1.2 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom (3.7 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.pom (1.3 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.14.2/plexus-compilers-2.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.14.2/plexus-compilers-2.14.2.pom (1.3 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar (151 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar (14 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar (4.2 kB at 36 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar (58 kB at 488 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.jar (29 kB at 165 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar (124 kB at 683 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.jar (4.4 kB at 23 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar (334 kB at 1.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.jar (23 kB at 87 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar (93 kB at 343 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar (192 kB at 583 kB/s)
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 79 source files with javac [debug target 17] to target/classes
+[INFO] /workspace/src/main/java/net/pandadev/nextron/utils/UpdateChecker.java: Some input files use or override a deprecated API.
+[INFO] /workspace/src/main/java/net/pandadev/nextron/utils/UpdateChecker.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[26,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[33,36] cannot find symbol
+  symbol:   method getCommandInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[37,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[29,40] cannot find symbol
+  symbol:   method getNoPerm()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[33,21] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[34,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[38,50] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[40,42] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[41,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[43,21] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[44,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[47,44] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[49,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[56,13] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[57,13] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[58,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/EnderchestCommand.java:[27,40] cannot find symbol
+  symbol:   method getNoPerm()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[28,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[35,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[42,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[49,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/apis/WarpAPI.java:[96,40] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpacceptCommand.java:[34,41] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpacceptCommand.java:[39,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpacceptCommand.java:[52,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/arguments/SeedArgument.java:[20,44] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[29,47] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[39,51] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[46,47] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[47,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[59,51] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[66,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[69,51] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[85,51] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[92,47] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[93,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[105,51] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[112,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[115,51] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[28,40] cannot find symbol
+  symbol:   method getCommandInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[35,44] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[40,44] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[48,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[51,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SudoCommand.java:[26,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[38,49] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,95] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,97] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[53,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[57,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[63,33] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,98] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[67,32] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,96] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[74,33] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,95] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[86,64] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[88,44] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,44] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,112] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[93,27] cannot find symbol
+  symbol:   method getName()
+  location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[97,29] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/arguments/HelpArgument.java:[24,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[19,37] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[21,43] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[24,45] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[26,45] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[30,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[34,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[40,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[62,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/guis/features/WarpGUIs.java:[76,48] cannot find symbol
+  symbol:   method getNoPerm()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/guis/features/WarpGUIs.java:[86,60] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/guis/features/WarpGUIs.java:[94,41] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[49,25] cannot find symbol
+  symbol:   method getUsage()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[50,29] cannot find symbol
+  symbol:   method getUsage()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[51,52] cannot find symbol
+  symbol:   method getUsage()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[53,54] cannot find symbol
+  symbol:   method getUsage()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[58,75] cannot find symbol
+  symbol:   method getCommand()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[60,46] cannot find symbol
+  symbol:   method getName()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[61,50] cannot find symbol
+  symbol:   method getDescription()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[64,50] cannot find symbol
+  symbol:   method getCommand()
+  location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[47,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[54,40] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[62,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[64,43] cannot find symbol
+  symbol:   method getInstance()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[70,50] cannot find symbol
+  symbol:   method getSeed()
+  location: variable value of type net.pandadev.nextron.arguments.objects.Seed
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[73,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[87,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[92,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[107,32] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[109,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[111,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[120,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[125,36] cannot find symbol
+  symbol:   method getPrefix()
+  location: class net.pandadev.nextron.Main
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:38 min
+[INFO] Finished at: 2026-11-13T14:52:17Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project Nextron: Compilation failure: Compilation failure: 
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[26,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[33,36] cannot find symbol
+[ERROR]   symbol:   method getCommandInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/PingCommand.java:[37,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[29,40] cannot find symbol
+[ERROR]   symbol:   method getNoPerm()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[33,21] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[34,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[38,50] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[40,42] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[41,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[43,21] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[44,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[47,44] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[49,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[56,13] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[57,13] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SpawnCommand.java:[58,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/EnderchestCommand.java:[27,40] cannot find symbol
+[ERROR]   symbol:   method getNoPerm()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[28,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[35,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[42,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TimeCommand.java:[49,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/apis/WarpAPI.java:[96,40] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpacceptCommand.java:[34,41] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpacceptCommand.java:[39,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpacceptCommand.java:[52,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/arguments/SeedArgument.java:[20,44] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[29,47] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[39,51] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[46,47] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[47,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[59,51] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[66,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[69,51] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[85,51] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[92,47] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[93,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[105,51] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[112,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/listeners/ClickableMessages.java:[115,51] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[28,40] cannot find symbol
+[ERROR]   symbol:   method getCommandInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[35,44] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[40,44] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[48,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/FlyCommand.java:[51,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/SudoCommand.java:[26,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[38,49] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[40,95] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[45,97] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[53,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[57,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[63,33] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[64,98] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[67,32] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[68,96] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[74,33] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[75,95] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[86,64] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[88,44] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,44] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[89,112] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[93,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable warp of type net.pandadev.nextron.arguments.objects.Warp
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WarpCommands.java:[97,29] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/arguments/HelpArgument.java:[24,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[19,37] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[21,43] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[24,45] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/ReloadCommand.java:[26,45] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[30,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[34,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[40,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/TpahereCommand.java:[62,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/guis/features/WarpGUIs.java:[76,48] cannot find symbol
+[ERROR]   symbol:   method getNoPerm()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/guis/features/WarpGUIs.java:[86,60] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/guis/features/WarpGUIs.java:[94,41] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[49,25] cannot find symbol
+[ERROR]   symbol:   method getUsage()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[50,29] cannot find symbol
+[ERROR]   symbol:   method getUsage()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[51,52] cannot find symbol
+[ERROR]   symbol:   method getUsage()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[53,54] cannot find symbol
+[ERROR]   symbol:   method getUsage()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[58,75] cannot find symbol
+[ERROR]   symbol:   method getCommand()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[60,46] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[61,50] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/HelpCommand.java:[64,50] cannot find symbol
+[ERROR]   symbol:   method getCommand()
+[ERROR]   location: variable commandInfo of type net.pandadev.nextron.arguments.objects.Help
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[47,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[54,40] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[62,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[64,43] cannot find symbol
+[ERROR]   symbol:   method getInstance()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[70,50] cannot find symbol
+[ERROR]   symbol:   method getSeed()
+[ERROR]   location: variable value of type net.pandadev.nextron.arguments.objects.Seed
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[73,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[87,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[92,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[107,32] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[109,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[111,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[120,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] /workspace/src/main/java/net/pandadev/nextron/commands/WorldCommand.java:[125,36] cannot find symbol
+[ERROR]   symbol:   method getPrefix()
+[ERROR]   location: class net.pandadev.nextron.Main
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project Nextron: Compilation failure
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1269)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:212)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
