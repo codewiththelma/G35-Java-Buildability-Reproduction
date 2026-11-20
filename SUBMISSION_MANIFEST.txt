@@ -1,0 +1,20 @@
+G35 - P34 Final Submission Manifest
+
+Repository URL:
+https://github.com/codewiththelma/G35-Java-Buildability-Reproduction
+
+Final Tag:
+FINAL
+
+Final Commit SHA:
+5431057c4222985dc6c236cab68bc6e02dd68788
+
+External Data URL (Original Authors' Dataset):
+https://zenodo.org/records/15555218
+
+Original Authors' Code Repository:
+https://github.com/sulir/jdk-study
+
+Data Availability:
+Our GitHub repository contains the selected project data and our reproduction results.
+The original authors' full results.csv is available on Zenodo.
